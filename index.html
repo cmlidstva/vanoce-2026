@@ -39,10 +39,10 @@ tr:hover td{background:#fbf9f4}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;scroll-margin-top:10px}
 .card h3{margin:0;font-size:19px;line-height:1.25}
-.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:12px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:6px;margin:12px 0}
 .kpis div{background:#f4f1ea;border-radius:10px;padding:7px 8px}
-.kpis span{display:block;font-size:11px;color:var(--mut)}
-.kpis b{font-size:14px}
+.kpis span{display:block;font-size:11px;color:var(--mut);white-space:nowrap}
+.kpis b{font-size:14px;white-space:nowrap;display:block;line-height:1.35}.kpis b.km{font-size:13px}
 dl{margin:0;display:grid;grid-template-columns:110px 1fr;gap:6px 10px;font-size:14px}
 dt{color:var(--mut);font-weight:600}
 dd{margin:0}
@@ -60,7 +60,8 @@ ul{margin:4px 0;padding-left:18px}
 #out{white-space:pre-wrap;background:#f4f1ea;border-radius:10px;padding:10px;margin-top:12px;font-size:14px;min-height:40px}
 .excl li{margin-bottom:6px;font-size:14.5px}
 footer{color:var(--mut);font-size:13px;margin-top:34px}
-@media(max-width:560px){dl{grid-template-columns:1fr}dt{margin-top:4px}.kpis{grid-template-columns:repeat(2,1fr)}.pc{grid-template-columns:1fr}.cards{grid-template-columns:1fr}}
+@media(max-width:560px){dl{grid-template-columns:1fr}dt{margin-top:4px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.pc{grid-template-columns:1fr}.cards{grid-template-columns:1fr}}
+td b,td strong{white-space:nowrap}
 </style>
 </head>
 <body>
@@ -285,7 +286,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 <div class="cards">
 <article class="card" id="dm">
 <header><h3>Dolní Morava – Sport Hotel, Vánoce na horách</h3><div class="sub">Sport Hotel Dolní Morava (3*)</div><span class="tag t-cheap">Nejlevnější</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>1 500 Kč</b></div><div><span>nocí</span><b>4</b></div><div><span>odhad 10 os.</span><b>≈ 55 600 Kč</b></div><div><span>Orlová / Brandýs</span><b>192 / 179 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>1 500 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 55 600 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 192 km<br>Brandýs 179 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>20.–26. 12., 2–4 noci</dd>
 <dt>V ceně</dt><dd>snídaně formou bufetu, večeře (2 chody), štědrovečerní večeře s přípitkem, bazén a vířivka, dětský koutek a herna, parkování</dd>
@@ -304,7 +305,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="darkov">
 <header><h3>Lázně Darkov – Vánoční pobyt</h3><div class="sub">Rehabilitační sanatorium, Karviná</div></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 120 Kč</b></div><div><span>nocí</span><b>5</b></div><div><span>odhad 10 os.</span><b>≈ 106 000 Kč</b></div><div><span>Orlová / Brandýs</span><b>12 / 349 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 120 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 106 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 12 km<br>Brandýs 349 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>23.–28. 12.</dd>
 <dt>V ceně</dt><dd>plná penze, 3 procedury (oxygenoterapie, jodobromová koupel, aroma masáž), štědrovečerní večeře, vánoční dárek, 3× 1 h bazén</dd>
@@ -323,7 +324,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="royal-ml">
 <header><h3>Mariánské Lázně – Royal, Vánoční pobyt</h3><div class="sub">Lázeňský hotel Royal, Royal Spa (stejná skupina jako Eliška)</div><span class="tag t-new">Nově nalezeno</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 242 Kč</b></div><div><span>nocí</span><b>6</b></div><div><span>odhad 10 os.</span><b>≈ 134 500 Kč</b></div><div><span>Orlová / Brandýs</span><b>553 / 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 242 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Celkem (10 os.)</span><b>≈ 134 500 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>20.–27. 12.</dd>
 <dt>V ceně</dt><dd>polopenze (plná za příplatek), 3–5 procedur podle počtu nocí, wellness (bazén, whirlpool, pára), svařák na přivítanou, slavnostní vánoční večeře, tombola, dárek</dd>
@@ -342,7 +343,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="babylon">
 <header><h3>Liberec – Wellness hotel Babylon, Vánoce se zábavou</h3><div class="sub">Wellness Hotel Babylon (4*)</div><span class="tag t-kids">Nejlepší pro děti</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 460 Kč</b></div><div><span>nocí</span><b>3</b></div><div><span>odhad 10 os.</span><b>≈ 73 800 Kč</b></div><div><span>Orlová / Brandýs</span><b>354 / 82 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 460 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 73 800 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 354 km<br>Brandýs 82 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>kdykoli 22.–27. 12., 3 noci</dd>
 <dt>V ceně</dt><dd>pokoj Superior, polopenze (3× snídaně, 2× večeře a 1× slavnostní večeře), neomezeně aquapark, saunový svět, Funpark, Lunapark, iQLANDIA a iQPARK, kryté parkování</dd>
@@ -361,7 +362,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="fl-svatky">
 <header><h3>Františkovy Lázně – Svátky v lázních</h3><div class="sub">hotely Metropol / Dr. Adler / Belvedere (3*)</div><span class="tag t-value">Nejlepší poměr cena/výkon</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 500 Kč</b></div><div><span>nocí</span><b>5</b></div><div><span>odhad 10 os.</span><b>≈ 125 000 Kč</b></div><div><span>Orlová / Brandýs</span><b>560 / 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 500 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 125 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>kdykoli 18.–26. 12., min. 5 nocí (např. 22.–27. 12.)</dd>
 <dt>V ceně</dt><dd>polopenze (plnou lze dokoupit), neomezené nápoje k obědu a večeři, Aquaforum v ceně, Štědrovečerní menu a dárek od Ježíška (jen při noci 24./25. 12.)</dd>
@@ -380,7 +381,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="fl-tyden">
 <header><h3>Františkovy Lázně – Týdenní vánoční pobyt</h3><div class="sub">Metropol (nejlevnější), dále Dr. Adler, Belvedere</div><span class="tag t-eliska">Nejvíc jako Eliška</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 630 Kč</b></div><div><span>nocí</span><b>7</b></div><div><span>odhad 10 os.</span><b>≈ 149 520 Kč</b></div><div><span>Orlová / Brandýs</span><b>560 / 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 630 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Celkem (10 os.)</span><b>≈ 149 520 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>20.–27. 12. (nástup v neděli)</dd>
 <dt>V ceně</dt><dd>plná penze, neomezené nápoje k obědu a večeři, vstupní lékařská prohlídka, 12 procedur, Aquaforum, prohlídka města, svařák s koledami</dd>
@@ -399,7 +400,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="richard">
 <header><h3>Mariánské Lázně – Hotel Richard</h3><div class="sub">Hotel Richard (4*)</div></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 657 Kč</b></div><div><span>nocí</span><b>7</b></div><div><span>odhad 10 os.</span><b>≈ 188 450 Kč</b></div><div><span>Orlová / Brandýs</span><b>553 / 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 657 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Celkem (10 os.)</span><b>≈ 188 450 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>kdykoli 18.–31. 12., 7 nocí</dd>
 <dt>V ceně</dt><dd>polopenze a polední polévka se salátem, 10 + 2 bonusové procedury, lékařská konzultace, bazén, vířivka, fitness, župan, Štědrý večer, slavnostní večeře 25. a 26. 12.</dd>
@@ -418,7 +419,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="aquapalace">
 <header><h3>Praha-Čestlice – Aquapalace Hotel, Vánoční wellness</h3><div class="sub">Aquapalace Hotel Prague (4*)</div></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>2 801 Kč</b></div><div><span>nocí</span><b>3</b></div><div><span>odhad 10 os.</span><b>≈ 84 020 Kč</b></div><div><span>Orlová / Brandýs</span><b>368 / 36 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 801 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 84 020 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 36 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12., 3 noci, nástup út–čt</dd>
 <dt>V ceně</dt><dd>polopenze formou bufetu, štědrovečerní slavnostní bufet s živou hudbou a pitím, výlet vánoční Prahou 24. 12., Aquapalace a saunový svět</dd>
@@ -437,7 +438,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="aurora">
 <header><h3>Třeboň – Lázně Aurora, Vánoce v Auroře</h3><div class="sub">Lázeňský dům Aurora (4*)</div><span class="tag t-eliska">Nejvíc jako Eliška</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>3 102 Kč</b></div><div><span>nocí</span><b>6</b></div><div><span>odhad 10 os.</span><b>≈ 191 220 Kč</b></div><div><span>Orlová / Brandýs</span><b>368 / 160 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 102 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Celkem (10 os.)</span><b>≈ 191 220 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 160 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–28. 12.</dd>
 <dt>V ceně</dt><dd>obědy a večeře formou bufetu, slavnostní štědrovečerní menu, vstupní vyšetření, 8 procedur (nelze měnit), vnitřní bazény a fitness, 2× Třeboňský saunový svět, vánoční film, dárek</dd>
@@ -456,7 +457,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="eliska">
 <header><h3>Velké Losiny – Eliška (loňský hotel)</h3><div class="sub">Lázeňský hotel Eliška, Royal Spa</div><span class="tag t-base">Loňská volba</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>3 569 Kč</b></div><div><span>nocí</span><b>5</b></div><div><span>odhad 10 os.</span><b>≈ 178 450 Kč</b></div><div><span>Orlová / Brandýs</span><b>175 / 227 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 569 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 178 450 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 175 km<br>Brandýs 227 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12.</dd>
 <dt>V ceně</dt><dd>plná penze, 4 procedury (koupel se zábalem, parafín, vánoční masáž, 2,5 h v Termálech Losiny), hotelový termální bazén, dárek od Ježíška, štědrovečerní večeře, cukroví</dd>
@@ -475,7 +476,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="thermal">
 <header><h3>Karlovy Vary – Hotel Thermal, Vánoce</h3><div class="sub">Spa Hotel Thermal (4*)</div><span class="tag t-new">Nově nalezeno</span></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>3 750 Kč</b></div><div><span>nocí</span><b>4</b></div><div><span>odhad 10 os.</span><b>≈ 150 000 Kč</b></div><div><span>Orlová / Brandýs</span><b>513 / 151 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 750 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 150 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 513 km<br>Brandýs 151 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12., 4 noci (nástup po–st, lze prodloužit až na 6 nocí)</dd>
 <dt>V ceně</dt><dd>polopenze, 24. 12. večeře s hudbou a all inclusive nápoji, dárek, neomezeně venkovní termální bazén a saunový svět Saunia, vnitřní wellness</dd>
@@ -494,7 +495,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="tol">
 <header><h3>Lázně Bělohrad – Tree of Life, Vánoční pobyt</h3><div class="sub">Tree of Life (4*S)</div></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>4 623 Kč</b></div><div><span>nocí</span><b>4</b></div><div><span>odhad 10 os.</span><b>≈ 192 700 Kč</b></div><div><span>Orlová / Brandýs</span><b>294 / 86 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>4 623 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 192 700 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 294 km<br>Brandýs 86 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>4 noci, příjezd 22.–24. 12.</dd>
 <dt>V ceně</dt><dd>plná penze formou bufetu, štědrovečerní večeře a pozdní raut, 4 vánoční procedury, bazén, Organic &amp; Garden Spa, fitness, program (perníkový stromeček, klavír, housle, degustace)</dd>
@@ -513,7 +514,7 @@ footer{color:var(--mut);font-size:13px;margin-top:34px}
 </article>
 <article class="card" id="horal">
 <header><h3>Velké Karlovice – Wellness hotel Horal</h3><div class="sub">Wellness hotel Horal (3*+)</div></header>
-<div class="kpis"><div><span>dospělý / noc</span><b>5 330 Kč</b></div><div><span>nocí</span><b>3</b></div><div><span>odhad 10 os.</span><b>≈ 167 895 Kč</b></div><div><span>Orlová / Brandýs</span><b>88 / 329 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>5 330 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 167 895 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 88 km<br>Brandýs 329 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–25. 12. (3 noci) nebo 4 noci v rozmezí 21.–27. 12.</dd>
 <dt>V ceně</dt><dd>snídaně a večeře formou bufetu, štědrovečerní večeře (degustační menu), termální bazény, saunový svět s rituály, masáž 50 min, lyžování na Štědrý den zdarma, animace, shuttle, parkování</dd>
