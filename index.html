@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>Vánoce 2026 v lázních – srovnání pro rodinu</title>
-<meta name="description" content="Srovnání vánočních lázeňských a wellness pobytů v ČR na Vánoce 2026 pro rodinnou skupinu 10 osob.">
+<meta name="description" content="Srovnání vánočních lázeňských a wellness pobytů v ČR na Vánoce 2026 pro rodinnou skupinu 9 osob.">
 <style>
 :root{--bg:#f6f4ef;--card:#fff;--ink:#1f2a30;--mut:#5f6b72;--acc:#9b1c2e;--acc2:#1f6f5c;--line:#e3ded3;--gold:#c99a2e}
 *{box-sizing:border-box}
@@ -26,7 +26,7 @@ h2{font-size:24px;margin:0 0 12px}
 .reco b.big{display:block;font-size:18px;margin-bottom:4px}
 .tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;-webkit-overflow-scrolling:touch}
 table{border-collapse:collapse;width:100%;min-width:1380px;font-size:14px}
-td:nth-child(1){min-width:210px}td:nth-child(6){min-width:230px}td:nth-child(7){min-width:190px}td:nth-child(8){min-width:150px}td:nth-child(4){min-width:150px}
+#t td:nth-child(1){min-width:210px}#t td:nth-child(7){min-width:230px}#t td:nth-child(8){min-width:190px}#t td:nth-child(9){min-width:150px}#t td:nth-child(4){min-width:150px}
 th,td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
 th{position:sticky;top:0;background:#efe9dd;cursor:pointer;user-select:none;white-space:nowrap;font-size:13px}
 th:after{content:" ⇅";color:#a99;font-size:11px}
@@ -35,7 +35,16 @@ td.num{white-space:nowrap}
 tr:hover td{background:#fbf9f4}
 .sub{color:var(--mut);font-size:12.5px;line-height:1.4}
 .tag{display:inline-block;font-size:11.5px;font-weight:600;border-radius:99px;padding:1px 8px;margin:4px 4px 0 0;color:#fff}
-.t-value{background:var(--acc2)}.t-eliska{background:#6a4fa3}.t-cheap{background:var(--gold)}.t-kids{background:#2a7fc1}.t-base{background:#777}.t-new{background:var(--acc)}
+.t-value{background:var(--acc2)}.t-eliska{background:#6a4fa3}.t-cheap{background:var(--gold)}.t-kids{background:#2a7fc1}.t-base{background:#777}.t-new{background:var(--acc)}.t-fav{background:#d4380d}
+.fav{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
+.fav article{background:var(--card);border:2px solid #d4380d;border-radius:16px;padding:16px}
+.fav h3{margin:0 0 4px;font-size:20px}
+.fav table{min-width:0;font-size:13.5px;margin:8px 0}
+.fav td,.fav th{padding:5px 6px;position:static;cursor:auto}
+.fav th:after{content:none}
+.fav .tot{background:#fff4ec;border-radius:10px;padding:8px 10px;margin:8px 0;font-size:14.5px}
+.fav h4{margin:12px 0 4px;font-size:15px}
+.fav ul{font-size:14px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;scroll-margin-top:10px}
 .card h3{margin:0;font-size:19px;line-height:1.25}
@@ -54,10 +63,6 @@ ul{margin:4px 0;padding-left:18px}
 .links{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px}
 .btn{display:inline-block;background:var(--acc2);color:#fff;text-decoration:none;border-radius:9px;padding:7px 11px;font-size:13.5px;border:0;cursor:pointer;font-family:inherit}
 .btn.alt{background:var(--acc)}.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
-.vote{background:var(--card);border:2px solid var(--acc);border-radius:16px;padding:18px}
-.vote label{display:block;font-weight:600;margin:10px 0 4px}
-.vote select,.vote input,.vote textarea{width:100%;font:inherit;padding:9px;border:1px solid var(--line);border-radius:9px;background:#fff}
-#out{white-space:pre-wrap;background:#f4f1ea;border-radius:10px;padding:10px;margin-top:12px;font-size:14px;min-height:40px}
 .excl li{margin-bottom:6px;font-size:14.5px}
 footer{color:var(--mut);font-size:13px;margin-top:34px}
 @media(max-width:560px){dl{grid-template-columns:1fr}dt{margin-top:4px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.pc{grid-template-columns:1fr}.cards{grid-template-columns:1fr}}
@@ -67,23 +72,115 @@ td b,td strong{white-space:nowrap}
 <body>
 <div class="hero"><div class="in">
 <h1>🎄 Vánoce 2026 v lázních: kam pojedeme?</h1>
-<p>Loni jsme byli v Lázních Velké Losiny (hotel Eliška) s procedurami, termálním bazénem a aquaparkem. Moc se nám to líbilo. Tady je srovnání podobných vánočních pobytů v Česku. Projděte si ho prosím a <a href="#hlasovani" style="color:#fff;font-weight:700">napište svoje 2 favority</a>.</p>
-<span class="pill">10 osob: 7 dospělých (z toho 3 senioři 60+) a 3 děti (12 let a 2 školáci)</span>
+<p>Loni jsme byli v Lázních Velké Losiny (hotel Eliška) s procedurami, termálním bazénem a aquaparkem. Moc se nám to líbilo. Tady je srovnání podobných vánočních pobytů v Česku. Nahoře jsou dva favorité, které jsme prověřili podrobně, pod nimi všechny ostatní možnosti.</p>
+<span class="pill">9 osob: 6 dospělých (z toho 3 senioři) a 3 děti (12 let a 2 školáci)</span>
 <span class="pill">apartmá pro 4, 2× dvoulůžkový pokoj, 1 malý jednolůžkový</span>
 <span class="pill">vzdálenosti z Orlové i z Brandýsa n. L.</span>
 </div></div>
 <div class="wrap">
 
-<section><div class="note"><b>Jak číst ceny:</b> Ceny jsou ze zveřejněných ceníků a balíčků na oficiálních webech (případně Spa.cz), ověřené 15. 10. 2026. „Cena za noc“ je cena „od“ za dospělého ve dvoulůžkovém pokoji. <b>Celkové částky jsou odhady.</b> Kde hotel dětskou cenu nezveřejnil, počítám dítě jako dospělého, takže skutečná cena bude spíš nižší. Příplatky za apartmá a jednolůžkový pokoj většinou zveřejněné nejsou, takže tam naopak může být cena vyšší. Místní poplatky (21–50 Kč/os./den) a parkování nejsou v součtech. Závazná cena bude až z poptávky. Vzdálenosti jsou silniční trasy (OSRM), časy bez provozu, takže v reálu počítejte s víc.</div></section>
+<section><div class="note"><b>Jak číst ceny:</b> Ceny jsou ze zveřejněných ceníků a balíčků na oficiálních webech (případně Spa.cz), ověřené 15. a 18. 10. 2026. „Cena za noc“ je cena „od“ za dospělého ve dvoulůžkovém pokoji. <b>Celkové částky jsou odhady.</b> Kde hotel dětskou cenu nezveřejnil, počítám dítě jako dospělého, takže skutečná cena bude spíš nižší. Příplatky za apartmá a jednolůžkový pokoj většinou zveřejněné nejsou, takže tam naopak může být cena vyšší. Místní poplatky (21–50 Kč/os./den) a parkování nejsou v součtech. Závazná cena bude až z poptávky. Vzdálenosti jsou silniční trasy (OSRM), časy bez provozu, takže v reálu počítejte s víc.</div></section>
+
+<section id="favorite">
+<h2>❤️ Favorité</h2>
+<p class="sub">Zuzka vybrala tyhle dva. Prověřili jsme je podrobně na oficiálních webech a v rezervačních systémech 18. 10. 2026. Děti počítáme jako 8 a 11 let, synovec 12 let.</p>
+<div class="fav">
+
+<article id="fav-dm">
+<h3>Sport Hotel Dolní Morava – Vánoce na horách</h3>
+<div class="sub">Sport Hotel***, Dolní Morava (Králíky) · Orlová 192 km, Brandýs 179 km</div>
+<div class="tot"><b>3 noci 23.–26. 12.: ≈ 37 200 Kč</b> za 9 osob, tj. <b>≈ 1 378 Kč na osobu a noc</b> (skupina ≈ 12 400 Kč/noc).<br>4 noci 22.–26. 12.: ≈ 49 600 Kč, také ≈ 1 378 Kč na osobu a noc.</div>
+<h4>Termín</h4>
+<ul><li>Balíček platí <b>20.–26. 12. 2026</b>, na 2, 3 nebo 4 noci.</li>
+<li><b>Nástup 23. 12. jde</b> (3 noci do 26. 12.). Jde i 22. 12. (4 noci) a Zuzka dojede 23. 12.</li>
+<li>Od 26. 12. začíná silvestrovský balíček (min. 2 noci, od 3 200 Kč/dosp./noc), takže prodloužit pobyt přes 26. 12. vychází jinak.</li></ul>
+<h4>Výpočet pro 9 osob (ceny „od“ z webu)</h4>
+<table><tr><th>Pokoj</th><th>3 noci</th><th>4 noci</th></tr>
+<tr><td>Apartmán pro 4: 2 dosp. + děti 8 a 11 let</td><td>16 200</td><td>21 600</td></tr>
+<tr><td>Pokoj: ségra + syn 12 let (dětská cena 3–13 let)</td><td>7 500</td><td>10 000</td></tr>
+<tr><td>Pokoj: rodiče</td><td>9 000</td><td>12 000</td></tr>
+<tr><td>Jednolůžkový: tchyně (cena nezveřejněná, počítáno jako dospělý v pokoji)</td><td>4 500</td><td>6 000</td></tr>
+<tr><td><b>Celkem</b></td><td><b>37 200 Kč</b></td><td><b>49 600 Kč</b></td></tr></table>
+<div class="sub">Za osobu na pobyt: dospělý v pokoji 4 500 / 6 000 Kč, v apartmánu 4 800 / 6 400 Kč, dítě v pokoji (3–13 let) 3 000 / 4 000 Kč, v apartmánu (3–12 let) 3 300 / 4 400 Kč. Navíc rekreační poplatek 30 Kč/dospělý/noc (≈ 540 / 720 Kč).</div>
+<h4>V ceně</h4>
+<ul><li>snídaně formou bufetu, večeře o 2 chodech (výběr ze 4 hlavních jídel)</li>
+<li><b>Štědrý večer:</b> štědrovečerní večeře s přípitkem. Jiný program web neuvádí.</li>
+<li>neomezeně bazén a vířivka, dětský koutek, herna, cvičební sál, parkování u hotelu, Wi-Fi. Sauna za 150 Kč / 90 min.</li>
+<li>Lázeňské procedury nejsou. Hned vedle jsou sjezdovky a Stezka v oblacích.</li></ul>
+<h4>Pokoje a volná místa</h4>
+<ul><li>Apartmán 4/5 lůžek je mezonet: dole obývák s kuchyňkou a koupelna, nahoře 2 ložnice (jedna průchozí na galerii).</li>
+<li>Jednolůžkový pokoj je v rezervačním formuláři, cena na webu není.</li>
+<li><b>Online rezervační systém s volnými místy hotel nemá.</b> Volná místa a cenu potvrdí jen e-mailem po nezávazné poptávce.</li></ul>
+<h4>Záloha a storno</h4>
+<ul><li>Po závazném potvrzení se platí záloha (výši web neuvádí), doplatek na recepci v hotovosti.</li>
+<li>Storno zdarma 27 a více dní před příjezdem. 26–20 dní: 50 % zálohy, 19–15 dní: 80 % zálohy, 14–5 dní: celá záloha, 4–0 dní: 100 % ceny. Při dřívějším odjezdu se platí 100 %.</li>
+<li>Pro skupiny platí jiné storno (zdarma 31 a více dní předem). Je potřeba se zeptat, co platí pro nás.</li>
+<li>Slevy ani termín uzávěrky web neuvádí.</li></ul>
+<h4>Na co se zeptat</h4>
+<ul><li>Je volno pro apartmán pro 4, 2 dvoulůžkové pokoje a 1 jednolůžkový pokoj 23.–26. 12. (případně 22.–26. 12.)?</li>
+<li>Kolik stojí jednolůžkový pokoj v balíčku?</li>
+<li>Jaká je výše zálohy a platí storno pro turistické pobyty, nebo pro skupiny? Jde platit kartou?</li>
+<li>Může jedna osoba (Zuzka) přijet o den později, když ostatní nastoupí 22. 12.? Kolik by stála?</li>
+<li>Co je na Štědrý večer kromě večeře? V kolik je večeře?</li></ul>
+<h4>Kontakt</h4>
+<ul><li><a href="mailto:recepce@sporthoteldm.cz">recepce@sporthoteldm.cz</a> · <a href="tel:+420602785999">+420 602 785 999</a> (recepce) · pozdní příjezd: +420 725 044 930</li>
+<li><a href="https://www.sporthoteldm.cz/vanoce-na-horach" target="_blank" rel="noopener">Balíček ↗</a> · <a href="https://www.sporthoteldm.cz/rezervace" target="_blank" rel="noopener">Nezávazná poptávka ↗</a> · <a href="https://www.sporthoteldm.cz/obchodni-reklamacni-podminky" target="_blank" rel="noopener">Obchodní podmínky ↗</a></li></ul>
+</article>
+
+<article id="fav-royal">
+<h3>Lázeňský hotel Royal – Vánoční pobyt</h3>
+<div class="sub">Lázeňský hotel ROYAL****, <b>Mariánské Lázně</b> (Royal Spa, stejná firma jako Eliška) · Orlová 553 km, Brandýs 198 km</div>
+<div class="tot"><b>6 nocí 21.–27. 12., plná penze: 132 450 Kč</b> za 9 osob, tj. <b>≈ 2 453 Kč na osobu a noc</b> (skupina ≈ 22 075 Kč/noc).<br>S polopenzí asi 121 650 Kč (≈ 2 253 Kč na osobu a noc).</div>
+<p class="sub"><b>Pozor na název:</b> tenhle Royal je v Mariánských Lázních, ne ve Františkových. Ve Františkových Lázních je jiný, menší hotel Royal** (Jiráskova 18), ale vánoční balíček tam není. Balíček „Svátky v lázních“ platí jen v hotelech Belvedere, Dr. Adler a Metropol.</p>
+<h4>Termín</h4>
+<ul><li>Balíček platí <b>20.–27. 12. 2026</b>, minimálně 6 nocí.</li>
+<li>Rezervační systém povolí <b>příjezd jen 20. nebo 21. 12.</b> (odjezd 26./27. 12., z 21. 12. jen 27. 12.). <b>Příjezd 22. ani 23. 12. v balíčku nejde.</b></li>
+<li>Prakticky: rodina přijede 21. 12. a Zuzka dojede 23. 12. vlakem (hotel nabízí odvoz z nádraží). Její první dvě noci se ale nejspíš platí také.</li></ul>
+<h4>Výpočet pro 9 osob (rezervační systém, 21.–27. 12., plná penze)</h4>
+<table><tr><th>Pokoj</th><th>Cena</th></tr>
+<tr><td>Rodina: 2× dvoulůžkový Komfort (apartmá má max. 3 lůžka)</td><td>58 600</td></tr>
+<tr><td>Dvoulůžkový Komfort: ségra + syn 12 let</td><td>29 300</td></tr>
+<tr><td>Dvoulůžkový Komfort: rodiče</td><td>29 300</td></tr>
+<tr><td>Jednolůžkový Komfort: tchyně</td><td>15 250</td></tr>
+<tr><td><b>Celkem</b></td><td><b>132 450 Kč</b></td></tr></table>
+<div class="sub">Za osobu na 6 nocí: Komfort 14 650 Kč, Superior 15 850 Kč, apartmá Deluxe 17 050 Kč, jednolůžkový Komfort 15 250 Kč (Superior 16 330, Deluxe 17 650). 7 nocí od 20. 12. stojí v Komfortu 16 950 Kč. Podle obchodních podmínek má slevu jen dítě do 5 let, takže děti 8, 11 a 12 let jsou počítané za plnou cenu. Navíc místní poplatek 50 Kč/os./den a parkování 250 Kč/den/auto.</div>
+<h4>V ceně</h4>
+<ul><li>plná penze (web uvádí i polopenzi od 13 450 Kč / 6 nocí), 3–5 lázeňských procedur podle počtu nocí</li>
+<li>neomezeně wellness (bazén, whirlpool, parní lázeň), fitness, župan</li>
+<li><b>Vánoční program:</b> svařák a vánoční pečivo na přivítanou, slavnostní vánoční večeře, individuální návštěva vánočních trhů, tombola o pobyt nebo proceduru, malý dárek na pokoji. Program si hotel může změnit.</li>
+<li>Aquapark ani program pro děti tu nejsou.</li></ul>
+<h4>Volná místa (online 18. 10. 2026, 21.–27. 12.)</h4>
+<ul><li>dvoulůžkové Komfort 19, Superior 17, apartmá Deluxe 5, <b>jednolůžkové Komfort 1</b>, Superior 1, Deluxe 2</li>
+<li>Online jdou rezervovat max. 4 pokoje najednou, my potřebujeme 5. Buď dvě rezervace, nebo poptávka e-mailem. Jednolůžkových pokojů zbývá málo.</li></ul>
+<h4>Záloha a storno</h4>
+<ul><li>Online rezervace je závazná. Platí se kartou nebo převodem, jinak záloha podle výzvy hotelu.</li>
+<li>Storno zdarma do 22 dní před pobytem. 21–14 dní: 30 %, 13–7 dní: 50 %, 6–1 den: 100 %.</li>
+<li>Vánoční sleva ani first minute nejsou. Podzimní slevy 20 % končí 20. 12.</li></ul>
+<h4>Recenze</h4>
+<ul><li><a href="https://www.spa.cz/marianske-lazne/hotel-royal/hodnoceni/" target="_blank" rel="noopener">Spa.cz 81 %</a> (374 recenzí, za poslední rok 4). Chválí personál, wellness a výhled, výhrady mají k jednotvárným snídaním. Booking.com 8,1/10 (podle vyhledávače).</li></ul>
+<h4>Na co se zeptat</h4>
+<ul><li>Jde nastoupit 22. nebo 23. 12. (nebo může Zuzka dojet později) a kolik by se za ni platilo?</li>
+<li>Mají děti 8, 11 a 12 let nějakou slevu? Dostanou procedury i děti?</li>
+<li>Jde rodina ubytovat v apartmá s přistýlkou a vedlejším pokojem, nebo ve 2 sousedních pokojích?</li>
+<li>Polopenze, nebo plná penze? Kolik je rozdíl?</li>
+<li>V kolik je vánoční večeře 24. 12. a co je v programu?</li></ul>
+<h4>Kontakt</h4>
+<ul><li><a href="mailto:info@royalmarienbad.cz">info@royalmarienbad.cz</a> · <a href="tel:+420354618111">+420 354 618 111</a> · rezervace a změny: <a href="mailto:sales@royalmarienbad.cz">sales@royalmarienbad.cz</a></li>
+<li><a href="https://www.royalspa.cz/vanocni-pobyt-5249" target="_blank" rel="noopener">Balíček ↗</a> · <a href="https://reservation.royalmarienbad.cz/cs/booking/2?fromExternal=true&amp;package=3650&amp;dateFrom=2026-12-21" target="_blank" rel="noopener">Online rezervace ↗</a> · <a href="https://www.royalspa.cz/nezavazna-poptavka?productId=10920" target="_blank" rel="noopener">Nezávazná poptávka ↗</a> · <a href="https://www.royalspa.cz/obchodni-podminky" target="_blank" rel="noopener">Obchodní podmínky ↗</a></li></ul>
+</article>
+
+</div>
+</section>
+
 
 <section>
 <h2>⭐ Doporučení v kostce</h2>
 <div class="reco">
-<div><h3>Nejlepší poměr cena/výkon</h3><b class="big">Františkovy Lázně – Svátky v lázních</b>2 500 Kč/noc, s first minute 2 125 Kč (do 31. 10.!). 5 nocí, aquapark, nápoje k jídlu a Štědrý večer. Za 10 lidí ≈ 106–125 tis. Kč. Bez procedur.</div>
-<div style="border-top-color:#6a4fa3"><h3>Nejvíc jako Eliška</h3><b class="big">FL – Týdenní vánoční pobyt (Metropol)</b>2 630 Kč/noc, plná penze, 12 procedur, Aquaforum (po–pá) a zveřejněné dětské ceny. ≈ 150 tis. Kč za 7 nocí. Alternativa: <a href="#aurora">Aurora Třeboň</a> nebo <a href="#royal-ml">Royal Mariánské Lázně</a> (2 242 Kč/noc).</div>
-<div style="border-top-color:var(--gold)"><h3>Nejlevnější</h3><b class="big">Sport Hotel Dolní Morava</b>1 500 Kč/noc, děti 1 000 Kč, apartmán pro 4. ≈ 56 tis. Kč za 4 noci. Jsou to hory s bazénem, ne lázně. Nejlevnější skutečné lázně jsou <a href="#darkov">Darkov</a> (2 120 Kč/noc).</div>
-<div style="border-top-color:#2a7fc1"><h3>Nejlepší pro děti</h3><b class="big">Babylon Liberec</b>2 460 Kč/noc, neomezeně aquapark, lunapark a iQLANDIA. ≈ 74 tis. Kč za 3 noci. Prémiová varianta: <a href="#horal">Horal</a> (termály, animace, 5 330 Kč/noc).</div>
-<div style="border-top-color:#777"><h3>Zopakovat Elišku</h3><b class="big">Velké Losiny</b>3 569 Kč/noc, 5 nocí, ≈ 178 tis. Kč. Při spojení se Silvestrem 1 noc zdarma.</div>
+<div><h3>Nejlepší poměr cena/výkon</h3><b class="big">Františkovy Lázně – Svátky v lázních</b>2 500 Kč/noc, s first minute 2 125 Kč (do 31. 10.!). 5 nocí, aquapark, nápoje k jídlu a Štědrý večer. Za 9 lidí ≈ 96–113 tis. Kč. Bez procedur.</div>
+<div style="border-top-color:#6a4fa3"><h3>Nejvíc jako Eliška</h3><b class="big">FL – Týdenní vánoční pobyt (Metropol)</b>2 630 Kč/noc, plná penze, 12 procedur, Aquaforum (po–pá) a zveřejněné dětské ceny. ≈ 134 tis. Kč za 7 nocí. Alternativa: <a href="#aurora">Aurora Třeboň</a> nebo <a href="#royal-ml">Royal Mariánské Lázně</a> (≈ 132 tis. Kč za 6 nocí s plnou penzí).</div>
+<div style="border-top-color:var(--gold)"><h3>Nejlevnější</h3><b class="big">Sport Hotel Dolní Morava</b>1 500 Kč/noc, děti 1 000 Kč, apartmán pro 4. ≈ 50 tis. Kč za 4 noci, ≈ 37 tis. Kč za 3 noci. Jsou to hory s bazénem, ne lázně. Nejlevnější skutečné lázně jsou <a href="#darkov">Darkov</a> (2 120 Kč/noc).</div>
+<div style="border-top-color:#2a7fc1"><h3>Nejlepší pro děti</h3><b class="big">Horal, Velké Karlovice</b>Termální bazény, saunový svět a animační program pro děti. 5 330 Kč/noc, ≈ 152 tis. Kč za 3 noci (dětské ceny budou nižší).</div>
+<div style="border-top-color:#777"><h3>Zopakovat Elišku</h3><b class="big">Velké Losiny</b>3 569 Kč/noc, 5 nocí, ≈ 161 tis. Kč. Při spojení se Silvestrem 1 noc zdarma.</div>
 </div>
 </section>
 
@@ -92,17 +189,18 @@ td b,td strong{white-space:nowrap}
 <p class="sub">Klepnutím na záhlaví sloupce seřadíte tabulku. Na mobilu se dá posouvat do stran.</p>
 <div class="tablewrap"><table id="t">
 <thead><tr>
-<th data-t="s">Místo a termín</th><th data-t="n">Cena dosp./noc</th><th data-t="n">Nocí</th><th data-t="n">Odhad celkem 10 os.</th><th data-t="n">Skupina za noc</th><th data-t="s">Voda a procedury</th><th data-t="s">Děti</th><th data-t="s">Senioři</th><th data-t="n">Recenze</th><th data-t="n">z Orlové</th><th data-t="n">z Brandýsa</th>
+<th data-t="s">Místo a termín</th><th data-t="n">Cena dosp./noc</th><th data-t="n">Nocí</th><th data-t="n">Odhad celkem 9 os.</th><th data-t="n">Skupina za noc</th><th data-t="n">Ø os./noc</th><th data-t="s">Voda a procedury</th><th data-t="s">Děti</th><th data-t="s">Senioři</th><th data-t="n">Recenze</th><th data-t="n">z Orlové</th><th data-t="n">z Brandýsa</th>
 </tr></thead>
 <tbody>
 <tr>
-<td data-v="Dolní Morava – Sport Hotel, Vánoce na horách"><a href="#dm"><b>Dolní Morava – Sport Hotel, Vánoce na horách</b></a><div class="sub">20.–26. 12., 2–4 noci</div><span class="tag t-cheap">Nejlevnější</span></td>
+<td data-v="Dolní Morava – Sport Hotel, Vánoce na horách"><a href="#dm"><b>Dolní Morava – Sport Hotel, Vánoce na horách</b></a><div class="sub">20.–26. 12., 2–4 noci (např. 22.–26. nebo 23.–26. 12.)</div><span class="tag t-fav">Favorit</span><span class="tag t-cheap">Nejlevnější</span></td>
 <td data-v="1500" class="num"><b>1 500 Kč</b><div class="sub">apartmán 1 600 Kč</div></td>
 <td data-v="4" class="num">4</td>
-<td data-v="55600" class="num"><b>≈ 55 600 Kč</b><div class="sub">se zveřejněnými dětskými cenami</div></td>
-<td data-v="13900" class="num">≈ 13 900 Kč</td>
+<td data-v="49600" class="num"><b>≈ 49 600 Kč</b><div class="sub">22.–26. 12.; 3 noci 23.–26. 12. ≈ 37 200 Kč</div></td>
+<td data-v="12400" class="num">≈ 12 400 Kč</td>
+<td data-v="1378" class="num">≈ 1 378 Kč</td>
 <td data-v="žádné"><div class="sub">malý hotelový bazén a vířivka (sauna za 150 Kč / 90 min)</div><div class="sub"><b>Procedury:</b> žádné</div></td>
-<td data-v="dítě 3–13 let 1 000 Kč/noc (v apartmánu 1 100 Kč/noc, 3–12 let), dětský koutek, lyžování a Stezka v oblacích hned vedle"><div class="sub">dítě 3–13 let 1 000 Kč/noc (v apartmánu 1 100 Kč/noc, 3–12 let), dětský koutek, lyžování a Stezka v oblacích hned vedle</div></td>
+<td data-v="dítě 3–13 let v pokoji 1 000 Kč/noc, 3–12 let v apartmánu 1 100 Kč/noc. Dětský koutek, herna, lyžování a Stezka v oblacích hned vedle"><div class="sub">dítě 3–13 let v pokoji 1 000 Kč/noc, 3–12 let v apartmánu 1 100 Kč/noc. Dětský koutek, herna, lyžování a Stezka v oblacích hned vedle</div></td>
 <td data-v="bez slev a bez lázeňského programu"><div class="sub">bez slev a bez lázeňského programu</div></td>
 <td data-v="70">TA 3,5 · Firmy 4,1</td>
 <td data-v="192" class="num">192 km<div class="sub">~2 h 28 min</div></td>
@@ -112,8 +210,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Lázně Darkov – Vánoční pobyt"><a href="#darkov"><b>Lázně Darkov – Vánoční pobyt</b></a><div class="sub">23.–28. 12.</div></td>
 <td data-v="2120" class="num"><b>2 120 Kč</b><div class="sub">10 600 Kč / 5 nocí</div></td>
 <td data-v="5" class="num">5</td>
-<td data-v="106000" class="num"><b>≈ 106 000 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="21200" class="num">≈ 21 200 Kč</td>
+<td data-v="95400" class="num"><b>≈ 95 400 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
+<td data-v="19080" class="num">≈ 19 080 Kč</td>
+<td data-v="2120" class="num">≈ 2 120 Kč</td>
 <td data-v="3 procedury"><div class="sub">bazén jen 3× 1 h</div><div class="sub"><b>Procedury:</b> 3 procedury</div></td>
 <td data-v="pro děti se moc nehodí (rehabilitační sanatorium). Dětská cena není zveřejněná."><div class="sub">pro děti se moc nehodí (rehabilitační sanatorium). Dětská cena není zveřejněná.</div></td>
 <td data-v="rehabilitace a solanka, 12 km od Orlové"><div class="sub">rehabilitace a solanka, 12 km od Orlové</div></td>
@@ -122,37 +221,26 @@ td b,td strong{white-space:nowrap}
 <td data-v="349" class="num">349 km<div class="sub">~4 h 09 min</div></td>
 </tr>
 <tr>
-<td data-v="Mariánské Lázně – Royal, Vánoční pobyt"><a href="#royal-ml"><b>Mariánské Lázně – Royal, Vánoční pobyt</b></a><div class="sub">20.–27. 12.</div><span class="tag t-new">Nově nalezeno</span></td>
-<td data-v="2242" class="num"><b>2 242 Kč</b><div class="sub">13 450 Kč / 6 nocí</div></td>
+<td data-v="Mariánské Lázně – Royal, Vánoční pobyt"><a href="#royal-ml"><b>Mariánské Lázně – Royal, Vánoční pobyt</b></a><div class="sub">20.–27. 12., min. 6 nocí; příjezd jen 20. nebo 21. 12.</div><span class="tag t-fav">Favorit</span></td>
+<td data-v="2442" class="num"><b>2 442 Kč</b><div class="sub">plná penze; s polopenzí 2 242 Kč</div></td>
 <td data-v="6" class="num">6</td>
-<td data-v="134500" class="num"><b>≈ 134 500 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="22417" class="num">≈ 22 417 Kč</td>
+<td data-v="132450" class="num"><b>≈ 132 450 Kč</b><div class="sub">21.–27. 12., plná penze, ceny z rezervačního systému</div></td>
+<td data-v="22075" class="num">≈ 22 075 Kč</td>
+<td data-v="2453" class="num">≈ 2 453 Kč</td>
 <td data-v="3–5 procedur"><div class="sub">hotelový bazén, whirlpool, parní lázeň (neomezeně)</div><div class="sub"><b>Procedury:</b> 3–5 procedur</div></td>
-<td data-v="dětský program ani ceny nejsou uvedené"><div class="sub">dětský program ani ceny nejsou uvedené</div></td>
+<td data-v="dětský program není uvedený. Sleva jen pro dítě do 5 let bez lůžka, starší děti platí plnou cenu."><div class="sub">dětský program není uvedený. Sleva jen pro dítě do 5 let bez lůžka, starší děti platí plnou cenu.</div></td>
 <td data-v="klasické lázně, procedury"><div class="sub">klasické lázně, procedury</div></td>
-<td data-v="0">nezjištěno</td>
+<td data-v="81">Spa.cz 81 %</td>
 <td data-v="553" class="num">553 km<div class="sub">~5 h 49 min</div></td>
 <td data-v="198" class="num">198 km<div class="sub">~2 h 24 min</div></td>
-</tr>
-<tr>
-<td data-v="Liberec – Wellness hotel Babylon, Vánoce se zábavou"><a href="#babylon"><b>Liberec – Wellness hotel Babylon, Vánoce se zábavou</b></a><div class="sub">kdykoli 22.–27. 12., 3 noci</div><span class="tag t-kids">Nejlepší pro děti</span></td>
-<td data-v="2460" class="num"><b>2 460 Kč</b><div class="sub">7 380 Kč / 3 noci</div></td>
-<td data-v="3" class="num">3</td>
-<td data-v="73800" class="num"><b>≈ 73 800 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="24600" class="num">≈ 24 600 Kč</td>
-<td data-v="žádné"><div class="sub">velký aquapark (tobogány, divoká řeka). Hosté mají vstup od 8:00. Svátky 2026 zatím nezveřejněné, v roce 2025 bylo 24. 12. 10–16 h a 25.–30. 12. 10–22 h.</div><div class="sub"><b>Procedury:</b> žádné</div></td>
-<td data-v="ideální pro děti (aquapark, lunapark, iQLANDIA), 25. 12. dětský program v aquaparku. Dítě do 3 let zdarma, ostatní dětské ceny jsou až v rezervačním systému."><div class="sub">ideální pro děti (aquapark, lunapark, iQLANDIA), 25. 12. dětský program v aquaparku. Dítě do 3 let zdarma, ostatní dětské ceny jsou až v rezervačním systému.</div></td>
-<td data-v="saunový svět, jinak hlavně zábavní centrum"><div class="sub">saunový svět, jinak hlavně zábavní centrum</div></td>
-<td data-v="95">Spa.cz 95 % · TA 3,7</td>
-<td data-v="354" class="num">354 km<div class="sub">~4 h 32 min</div></td>
-<td data-v="82" class="num">82 km<div class="sub">~0 h 53 min</div></td>
 </tr>
 <tr>
 <td data-v="Františkovy Lázně – Svátky v lázních"><a href="#fl-svatky"><b>Františkovy Lázně – Svátky v lázních</b></a><div class="sub">kdykoli 18.–26. 12., min. 5 nocí (např. 22.–27. 12.)</div><span class="tag t-value">Nejlepší poměr cena/výkon</span></td>
 <td data-v="2500" class="num"><b>2 500 Kč</b><div class="sub">2 125 Kč s first minute −15 %</div></td>
 <td data-v="5" class="num">5</td>
-<td data-v="125000" class="num"><b>≈ 125 000 Kč</b><div class="sub">s first minute −15 %: ≈ 106 250 Kč</div></td>
-<td data-v="25000" class="num">≈ 25 000 Kč</td>
+<td data-v="112500" class="num"><b>≈ 112 500 Kč</b><div class="sub">s first minute −15 %: ≈ 95 625 Kč</div></td>
+<td data-v="22500" class="num">≈ 22 500 Kč</td>
+<td data-v="2500" class="num">≈ 2 500 Kč</td>
 <td data-v="žádné (lze dokoupit)"><div class="sub">Aquaforum (lázeňský aquapark, tobogán, 600 m od Metropolu). 24. 12. otevřeno jen 9–14 h.</div><div class="sub"><b>Procedury:</b> žádné (lze dokoupit)</div></td>
 <td data-v="„snížené ceny pro děti“ podle webu, ale v ceníku nejsou. Aquapark je pro děti fajn."><div class="sub">„snížené ceny pro děti“ podle webu, ale v ceníku nejsou. Aquapark je pro děti fajn.</div></td>
 <td data-v="sleva nezveřejněna. Klidné lázeňské město, nápoje v ceně."><div class="sub">sleva nezveřejněna. Klidné lázeňské město, nápoje v ceně.</div></td>
@@ -164,8 +252,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Františkovy Lázně – Týdenní vánoční pobyt"><a href="#fl-tyden"><b>Františkovy Lázně – Týdenní vánoční pobyt</b></a><div class="sub">20.–27. 12. (nástup v neděli)</div><span class="tag t-eliska">Nejvíc jako Eliška</span></td>
 <td data-v="2630" class="num"><b>2 630 Kč</b><div class="sub">Dr. Adler 2 830 Kč, Belvedere od 2 930 Kč</div></td>
 <td data-v="7" class="num">7</td>
-<td data-v="149520" class="num"><b>≈ 149 520 Kč</b><div class="sub">Metropol, děti na přistýlce</div></td>
-<td data-v="21360" class="num">≈ 21 360 Kč</td>
+<td data-v="133910" class="num"><b>≈ 133 910 Kč</b><div class="sub">Metropol, děti na přistýlce</div></td>
+<td data-v="19130" class="num">≈ 19 130 Kč</td>
+<td data-v="2126" class="num">≈ 2 126 Kč</td>
 <td data-v="12 procedur (určí lékař), jen od 18 let, 24. 12. se nepodávají"><div class="sub">Aquaforum u 3* hotelů jen po–pá (tj. 21.–25. 12.; 24. 12. jen 9–14 h). Celý týden ho má jen Pawlik-Aquaforum (od 3 520 Kč/noc) a Imperial.</div><div class="sub"><b>Procedury:</b> 12 procedur (určí lékař), jen od 18 let, 24. 12. se nepodávají</div></td>
 <td data-v="Metropol: do 5,99 let zdarma, 6–10,99 let 850 Kč/den, 11–17,99 let 1 250 Kč/den (přistýlka, plná penze)"><div class="sub">Metropol: do 5,99 let zdarma, 6–10,99 let 850 Kč/den, 11–17,99 let 1 250 Kč/den (přistýlka, plná penze)</div></td>
 <td data-v="sleva nezveřejněna. Procedury a lékař jsou výhoda pro rodiče a tchyni."><div class="sub">sleva nezveřejněna. Procedury a lékař jsou výhoda pro rodiče a tchyni.</div></td>
@@ -177,8 +266,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Mariánské Lázně – Hotel Richard"><a href="#richard"><b>Mariánské Lázně – Hotel Richard</b></a><div class="sub">kdykoli 18.–31. 12., 7 nocí</div></td>
 <td data-v="2657" class="num"><b>2 657 Kč</b><div class="sub">jednolůžkový pokoj 3 007 Kč</div></td>
 <td data-v="7" class="num">7</td>
-<td data-v="188450" class="num"><b>≈ 188 450 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="26921" class="num">≈ 26 921 Kč</td>
+<td data-v="169850" class="num"><b>≈ 169 850 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
+<td data-v="24264" class="num">≈ 24 264 Kč</td>
+<td data-v="2696" class="num">≈ 2 696 Kč</td>
 <td data-v="12 procedur podle lékaře"><div class="sub">hotelový bazén a vířivka</div><div class="sub"><b>Procedury:</b> 12 procedur podle lékaře</div></td>
 <td data-v="nic pro děti, dětské ceny nejsou uvedené"><div class="sub">nic pro děti, dětské ceny nejsou uvedené</div></td>
 <td data-v="výborné hodnocení, hodně procedur"><div class="sub">výborné hodnocení, hodně procedur</div></td>
@@ -190,8 +280,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Praha-Čestlice – Aquapalace Hotel, Vánoční wellness"><a href="#aquapalace"><b>Praha-Čestlice – Aquapalace Hotel, Vánoční wellness</b></a><div class="sub">22.–27. 12., 3 noci, nástup út–čt</div></td>
 <td data-v="2801" class="num"><b>2 801 Kč</b><div class="sub">od 8 402 Kč / 3 noci (cena se mění)</div></td>
 <td data-v="3" class="num">3</td>
-<td data-v="84020" class="num"><b>≈ 84 020 Kč</b><div class="sub">všichni za cenu „od“</div></td>
-<td data-v="28007" class="num">≈ 28 007 Kč</td>
+<td data-v="75618" class="num"><b>≈ 75 618 Kč</b><div class="sub">všichni za cenu „od“</div></td>
+<td data-v="25206" class="num">≈ 25 206 Kč</td>
+<td data-v="2801" class="num">≈ 2 801 Kč</td>
 <td data-v="žádné"><div class="sub">největší aquapark v ČR, ale <b>24. 12. je zavřený</b> a 25. 12. otevírá až ve 13:00</div><div class="sub"><b>Procedury:</b> žádné</div></td>
 <td data-v="aquapark je super, ale na Štědrý den zavřený. Dětské ceny v balíčku nejsou."><div class="sub">aquapark je super, ale na Štědrý den zavřený. Dětské ceny v balíčku nejsou.</div></td>
 <td data-v="saunový svět, krátké cestování z Brandýsa"><div class="sub">saunový svět, krátké cestování z Brandýsa</div></td>
@@ -203,8 +294,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Třeboň – Lázně Aurora, Vánoce v Auroře"><a href="#aurora"><b>Třeboň – Lázně Aurora, Vánoce v Auroře</b></a><div class="sub">22.–28. 12.</div><span class="tag t-eliska">Nejvíc jako Eliška</span></td>
 <td data-v="3102" class="num"><b>3 102 Kč</b><div class="sub">Superior 18 612 Kč / 6 nocí</div></td>
 <td data-v="6" class="num">6</td>
-<td data-v="191220" class="num"><b>≈ 191 220 Kč</b><div class="sub">podle pokojů</div></td>
-<td data-v="31870" class="num">≈ 31 870 Kč</td>
+<td data-v="172608" class="num"><b>≈ 172 608 Kč</b><div class="sub">podle pokojů</div></td>
+<td data-v="28768" class="num">≈ 28 768 Kč</td>
+<td data-v="3196" class="num">≈ 3 196 Kč</td>
 <td data-v="8 procedur, které nejde měnit (pro děti ověřit)"><div class="sub">vnitřní bazény v budově, saunový svět 2× v ceně</div><div class="sub"><b>Procedury:</b> 8 procedur, které nejde měnit (pro děti ověřit)</div></td>
 <td data-v="dětská cena není zveřejněná, přistýlka 16 452 Kč/pobyt"><div class="sub">dětská cena není zveřejněná, přistýlka 16 452 Kč/pobyt</div></td>
 <td data-v="klasické lázně se vším pod jednou střechou"><div class="sub">klasické lázně se vším pod jednou střechou</div></td>
@@ -216,8 +308,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Velké Losiny – Eliška (loňský hotel)"><a href="#eliska"><b>Velké Losiny – Eliška (loňský hotel)</b></a><div class="sub">22.–27. 12.</div><span class="tag t-base">Loňská volba</span></td>
 <td data-v="3569" class="num"><b>3 569 Kč</b><div class="sub">17 845 Kč / 5 nocí</div></td>
 <td data-v="5" class="num">5</td>
-<td data-v="178450" class="num"><b>≈ 178 450 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="35690" class="num">≈ 35 690 Kč</td>
+<td data-v="160605" class="num"><b>≈ 160 605 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
+<td data-v="32121" class="num">≈ 32 121 Kč</td>
+<td data-v="3569" class="num">≈ 3 569 Kč</td>
 <td data-v="4 procedury (věkové limity web neuvádí)"><div class="sub">termální bazén v hotelu, Termály Losiny 1× 2,5 h v ceně (další vstupy −30 %). Svátky 2026 zatím nezveřejněné, v roce 2025: 24. 12. 10–14 h, 25.–26. 12. 10–20 h.</div><div class="sub"><b>Procedury:</b> 4 procedury (věkové limity web neuvádí)</div></td>
 <td data-v="dětská cena nezveřejněná. Termály Losiny jsou pro děti fajn."><div class="sub">dětská cena nezveřejněná. Termály Losiny jsou pro děti fajn.</div></td>
 <td data-v="sleva nezveřejněna, procedury a klid"><div class="sub">sleva nezveřejněna, procedury a klid</div></td>
@@ -229,8 +322,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Karlovy Vary – Hotel Thermal, Vánoce"><a href="#thermal"><b>Karlovy Vary – Hotel Thermal, Vánoce</b></a><div class="sub">22.–27. 12., 4 noci (nástup po–st, lze prodloužit až na 6 nocí)</div><span class="tag t-new">Nově nalezeno</span></td>
 <td data-v="3750" class="num"><b>3 750 Kč</b><div class="sub">Spa.cz: 15 000 Kč / 4 noci (jinde „od 14 000“)</div></td>
 <td data-v="4" class="num">4</td>
-<td data-v="150000" class="num"><b>≈ 150 000 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
-<td data-v="37500" class="num">≈ 37 500 Kč</td>
+<td data-v="135000" class="num"><b>≈ 135 000 Kč</b><div class="sub">všichni za cenu dospělého</div></td>
+<td data-v="33750" class="num">≈ 33 750 Kč</td>
+<td data-v="3750" class="num">≈ 3 750 Kč</td>
 <td data-v="žádné"><div class="sub">venkovní termální bazén 40 × 15 m (30 °C) s výhledem na město, neomezeně. Provoz o svátcích ověřit.</div><div class="sub"><b>Procedury:</b> žádné</div></td>
 <td data-v="dětské ceny jen na dotaz"><div class="sub">dětské ceny jen na dotaz</div></td>
 <td data-v="kolonády, termální bazén"><div class="sub">kolonády, termální bazén</div></td>
@@ -242,8 +336,9 @@ td b,td strong{white-space:nowrap}
 <td data-v="Lázně Bělohrad – Tree of Life, Vánoční pobyt"><a href="#tol"><b>Lázně Bělohrad – Tree of Life, Vánoční pobyt</b></a><div class="sub">4 noci, příjezd 22.–24. 12.</div></td>
 <td data-v="4623" class="num"><b>4 623 Kč</b><div class="sub">Standard 18 490 Kč / 4 noci</div></td>
 <td data-v="4" class="num">4</td>
-<td data-v="192700" class="num"><b>≈ 192 700 Kč</b><div class="sub">podle pokojů</div></td>
-<td data-v="48175" class="num">≈ 48 175 Kč</td>
+<td data-v="174210" class="num"><b>≈ 174 210 Kč</b><div class="sub">podle pokojů</div></td>
+<td data-v="43552" class="num">≈ 43 552 Kč</td>
+<td data-v="4839" class="num">≈ 4 839 Kč</td>
 <td data-v="4 procedury"><div class="sub">hotelový bazén (spa až od 10 let)</div><div class="sub"><b>Procedury:</b> 4 procedury</div></td>
 <td data-v="děti do 3 let zdarma, přistýlka 13 890 Kč/pobyt, perníkový workshop 24. 12., spa až od 10 let"><div class="sub">děti do 3 let zdarma, přistýlka 13 890 Kč/pobyt, perníkový workshop 24. 12., spa až od 10 let</div></td>
 <td data-v="klidné, kvalitní kuchyně"><div class="sub">klidné, kvalitní kuchyně</div></td>
@@ -252,11 +347,12 @@ td b,td strong{white-space:nowrap}
 <td data-v="86" class="num">86 km<div class="sub">~1 h 14 min</div></td>
 </tr>
 <tr>
-<td data-v="Velké Karlovice – Wellness hotel Horal"><a href="#horal"><b>Velké Karlovice – Wellness hotel Horal</b></a><div class="sub">22.–25. 12. (3 noci) nebo 4 noci v rozmezí 21.–27. 12.</div></td>
+<td data-v="Velké Karlovice – Wellness hotel Horal"><a href="#horal"><b>Velké Karlovice – Wellness hotel Horal</b></a><div class="sub">22.–25. 12. (3 noci) nebo 4 noci v rozmezí 21.–27. 12.</div><span class="tag t-kids">Nejlepší pro děti</span></td>
 <td data-v="5330" class="num"><b>5 330 Kč</b><div class="sub">15 990 Kč / 3 noci</div></td>
 <td data-v="3" class="num">3</td>
-<td data-v="167895" class="num"><b>≈ 167 895 Kč</b><div class="sub">děti za cenu dospělého</div></td>
-<td data-v="55965" class="num">≈ 55 965 Kč</td>
+<td data-v="151905" class="num"><b>≈ 151 905 Kč</b><div class="sub">děti za cenu dospělého</div></td>
+<td data-v="50635" class="num">≈ 50 635 Kč</td>
+<td data-v="5626" class="num">≈ 5 626 Kč</td>
 <td data-v="1× masáž 50 min"><div class="sub">termální bazény a saunový svět (neomezeně)</div><div class="sub"><b>Procedury:</b> 1× masáž 50 min</div></td>
 <td data-v="dětské saunové rituály, animační program. Dětská cena existuje, ale není zveřejněná."><div class="sub">dětské saunové rituály, animační program. Dětská cena existuje, ale není zveřejněná.</div></td>
 <td data-v="bez slev. Wellness a výborná kuchyně."><div class="sub">bez slev. Wellness a výborná kuchyně.</div></td>
@@ -267,45 +363,50 @@ td b,td strong{white-space:nowrap}
 </tbody></table></div>
 </section>
 
-<section id="hlasovani">
-<h2>🗳️ Vaše volba</h2>
-<div class="vote">
-<p style="margin-top:0">Vyberte <b>2 favority</b>, případně napište poznámku. Tlačítkem pak zprávu zkopírujete nebo rovnou pošlete <b>Jirkovi</b> (WhatsApp, SMS nebo jakkoli jinak). Stránka sama nic neukládá ani neodesílá.</p>
-<label for="who">Kdo hlasuje (stačí role, např. „babička“)</label><input id="who" placeholder="např. děda">
-<label for="v1">1. volba</label><select id="v1"><option value="">– vyberte –</option><option value="Dolní Morava – Sport Hotel, Vánoce na horách">Dolní Morava – Sport Hotel, Vánoce na horách (1 500 Kč/noc)</option><option value="Lázně Darkov – Vánoční pobyt">Lázně Darkov – Vánoční pobyt (2 120 Kč/noc)</option><option value="Mariánské Lázně – Royal, Vánoční pobyt">Mariánské Lázně – Royal, Vánoční pobyt (2 242 Kč/noc)</option><option value="Liberec – Wellness hotel Babylon, Vánoce se zábavou">Liberec – Wellness hotel Babylon, Vánoce se zábavou (2 460 Kč/noc)</option><option value="Františkovy Lázně – Svátky v lázních">Františkovy Lázně – Svátky v lázních (2 500 Kč/noc)</option><option value="Františkovy Lázně – Týdenní vánoční pobyt">Františkovy Lázně – Týdenní vánoční pobyt (2 630 Kč/noc)</option><option value="Mariánské Lázně – Hotel Richard">Mariánské Lázně – Hotel Richard (2 657 Kč/noc)</option><option value="Praha-Čestlice – Aquapalace Hotel, Vánoční wellness">Praha-Čestlice – Aquapalace Hotel, Vánoční wellness (2 801 Kč/noc)</option><option value="Třeboň – Lázně Aurora, Vánoce v Auroře">Třeboň – Lázně Aurora, Vánoce v Auroře (3 102 Kč/noc)</option><option value="Velké Losiny – Eliška (loňský hotel)">Velké Losiny – Eliška (loňský hotel) (3 569 Kč/noc)</option><option value="Karlovy Vary – Hotel Thermal, Vánoce">Karlovy Vary – Hotel Thermal, Vánoce (3 750 Kč/noc)</option><option value="Lázně Bělohrad – Tree of Life, Vánoční pobyt">Lázně Bělohrad – Tree of Life, Vánoční pobyt (4 623 Kč/noc)</option><option value="Velké Karlovice – Wellness hotel Horal">Velké Karlovice – Wellness hotel Horal (5 330 Kč/noc)</option></select>
-<label for="v2">2. volba</label><select id="v2"><option value="">– vyberte –</option><option value="Dolní Morava – Sport Hotel, Vánoce na horách">Dolní Morava – Sport Hotel, Vánoce na horách (1 500 Kč/noc)</option><option value="Lázně Darkov – Vánoční pobyt">Lázně Darkov – Vánoční pobyt (2 120 Kč/noc)</option><option value="Mariánské Lázně – Royal, Vánoční pobyt">Mariánské Lázně – Royal, Vánoční pobyt (2 242 Kč/noc)</option><option value="Liberec – Wellness hotel Babylon, Vánoce se zábavou">Liberec – Wellness hotel Babylon, Vánoce se zábavou (2 460 Kč/noc)</option><option value="Františkovy Lázně – Svátky v lázních">Františkovy Lázně – Svátky v lázních (2 500 Kč/noc)</option><option value="Františkovy Lázně – Týdenní vánoční pobyt">Františkovy Lázně – Týdenní vánoční pobyt (2 630 Kč/noc)</option><option value="Mariánské Lázně – Hotel Richard">Mariánské Lázně – Hotel Richard (2 657 Kč/noc)</option><option value="Praha-Čestlice – Aquapalace Hotel, Vánoční wellness">Praha-Čestlice – Aquapalace Hotel, Vánoční wellness (2 801 Kč/noc)</option><option value="Třeboň – Lázně Aurora, Vánoce v Auroře">Třeboň – Lázně Aurora, Vánoce v Auroře (3 102 Kč/noc)</option><option value="Velké Losiny – Eliška (loňský hotel)">Velké Losiny – Eliška (loňský hotel) (3 569 Kč/noc)</option><option value="Karlovy Vary – Hotel Thermal, Vánoce">Karlovy Vary – Hotel Thermal, Vánoce (3 750 Kč/noc)</option><option value="Lázně Bělohrad – Tree of Life, Vánoční pobyt">Lázně Bělohrad – Tree of Life, Vánoční pobyt (4 623 Kč/noc)</option><option value="Velké Karlovice – Wellness hotel Horal">Velké Karlovice – Wellness hotel Horal (5 330 Kč/noc)</option></select>
-<label for="nt">Poznámka (termín, rozpočet, co je pro vás důležité)</label><textarea id="nt" rows="3" placeholder="např. hlavně procedury, max. 5 nocí…"></textarea>
-<div id="out">Zde se objeví text zprávy.</div>
-<div class="links"><button class="btn" id="copy">📋 Zkopírovat</button><button class="btn alt" id="share">📤 Sdílet</button><a class="btn ghost" id="wa" href="#" target="_blank" rel="noopener">WhatsApp</a><a class="btn ghost" id="sms" href="#">SMS</a></div>
-<p class="sub">Kdo nechce klikat, stačí <b>odpovědět Jirkovi zprávou se svými 2 favority</b>.</p>
-</div>
-</section>
-
 <section>
 <h2>🏨 Jednotlivé možnosti</h2>
 <div class="cards">
 <article class="card" id="dm">
-<header><h3>Dolní Morava – Sport Hotel, Vánoce na horách</h3><div class="sub">Sport Hotel Dolní Morava (3*)</div><span class="tag t-cheap">Nejlevnější</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>1 500 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 55 600 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 192 km<br>Brandýs 179 km</b></div></div>
+<header><h3>Dolní Morava – Sport Hotel, Vánoce na horách</h3><div class="sub">Sport Hotel Dolní Morava (3*)</div><span class="tag t-fav">Favorit</span><span class="tag t-cheap">Nejlevnější</span></header>
+<div class="kpis"><div><span>Cena/noc</span><b>1 500 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Ø os./noc</span><b>≈ 1 378 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 49 600 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 192 km<br>Brandýs 179 km</b></div></div>
 <dl>
-<dt>Termín</dt><dd>20.–26. 12., 2–4 noci</dd>
+<dt>Termín</dt><dd>20.–26. 12., 2–4 noci (např. 22.–26. nebo 23.–26. 12.)</dd>
 <dt>V ceně</dt><dd>snídaně formou bufetu, večeře (2 chody), štědrovečerní večeře s přípitkem, bazén a vířivka, dětský koutek a herna, parkování</dd>
 <dt>Voda a bazén</dt><dd>malý hotelový bazén a vířivka (sauna za 150 Kč / 90 min)</dd>
 <dt>Procedury</dt><dd>žádné</dd>
 <dt>Štědrý večer</dt><dd>štědrovečerní večeře s přípitkem</dd>
-<dt>Děti</dt><dd>dítě 3–13 let 1 000 Kč/noc (v apartmánu 1 100 Kč/noc, 3–12 let), dětský koutek, lyžování a Stezka v oblacích hned vedle</dd>
+<dt>Děti</dt><dd>dítě 3–13 let v pokoji 1 000 Kč/noc, 3–12 let v apartmánu 1 100 Kč/noc. Dětský koutek, herna, lyžování a Stezka v oblacích hned vedle</dd>
 <dt>Senioři</dt><dd>bez slev a bez lázeňského programu</dd>
-<dt>Pokoje pro nás</dt><dd>2-, 3- a 4lůžkové pokoje a apartmány včetně 4/5lůžkového apartmánu. Jednolůžkový pokoj není v nabídce.</dd>
-<dt>Slevy / podmínky</dt><dd>nezveřejněno</dd>
-<dt>Výpočet</dt><dd class="calc">4 noci: rodina v apartmánu 2 × 6 400 + 2 děti × 4 400 = 21 600 Kč; dalších 5 dospělých × 6 000 = 30 000 Kč; syn 12 let 4 000 Kč. Celkem ≈ 55 600 Kč. + rekreační poplatek 30 Kč/dosp./noc. Jednolůžkový pokoj web nenabízí (je potřeba poptat).</dd>
+<dt>Pokoje pro nás</dt><dd>2-, 3- a 4lůžkové pokoje a apartmány včetně 4/5lůžkového mezonetového apartmánu (2 ložnice). Jednolůžkový pokoj je v rezervačním formuláři, cena zveřejněná není.</dd>
+<dt>Slevy / podmínky</dt><dd>storno zdarma 27 a více dní před příjezdem, pak část zálohy. Slevy nezveřejněné.</dd>
+<dt>Výpočet</dt><dd class="calc">4 noci (22.–26. 12.): rodina v apartmánu 2 × 6 400 + 2 děti × 4 400 = 21 600 Kč; ségra 6 000 + syn 12 let 4 000 = 10 000 Kč; rodiče 2 × 6 000 = 12 000 Kč; tchyně 6 000 Kč (cena jednolůžkového pokoje není zveřejněná). Celkem ≈ 49 600 Kč. 3 noci (23.–26. 12.) ≈ 37 200 Kč. + rekreační poplatek 30 Kč/dosp./noc.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.tripadvisor.in/ShowUserReviews-g3202643-d4689722-r618672037-Sport_Hotel-Dolni_Morava_Pardubice_Region_Bohemia.html" target="_blank" rel="noopener">TripAdvisor 3,5/5 (47, podle vyhledávače)</a></li><li><a href="https://www.firmy.cz/detail/13161387-sport-hotel-dolni-morava-dolni-morava.html" target="_blank" rel="noopener">Firmy.cz (Google/Seznam) 4,1/5 (82, podle vyhledávače)</a></li></ul></dd>
 </dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>zdaleka nejlevnější</li><li>apartmán pro 4</li><li>hory, lyže, zhruba stejně daleko z Orlové i Brandýsa</li></ul></div><div class="con"><b>Minusy</b><ul><li>nejsou to lázně, jen bazén a vířivka</li><li>nejskromnější varianta</li><li>horší recenze</li></ul></div></div>
+<div class="pc"><div class="pro"><b>Plusy</b><ul><li>zdaleka nejlevnější</li><li>apartmán pro 4</li><li>nástup 23. 12. jde</li><li>hory, lyže, zhruba stejně daleko z Orlové i Brandýsa</li></ul></div><div class="con"><b>Minusy</b><ul><li>nejsou to lázně, jen bazén a vířivka</li><li>nejskromnější varianta</li><li>odjezd nejpozději 26. 12. (pak začíná Silvestr)</li></ul></div></div>
 <div class="links"><a class="btn" href="https://www.sporthoteldm.cz/vanoce-na-horach" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a></div>
+</article>
+<article class="card" id="royal-ml">
+<header><h3>Mariánské Lázně – Royal, Vánoční pobyt</h3><div class="sub">Lázeňský hotel Royal, Royal Spa (stejná skupina jako Eliška)</div><span class="tag t-fav">Favorit</span></header>
+<div class="kpis"><div><span>Cena/noc</span><b>2 442 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Ø os./noc</span><b>≈ 2 453 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 132 450 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
+<dl>
+<dt>Termín</dt><dd>20.–27. 12., min. 6 nocí; příjezd jen 20. nebo 21. 12.</dd>
+<dt>V ceně</dt><dd>plná penze (podle webu i polopenze), 3–5 procedur podle počtu nocí, wellness (bazén, whirlpool, pára) neomezeně, svařák a cukroví na přivítanou, slavnostní vánoční večeře, tombola, dárek v pokoji</dd>
+<dt>Voda a bazén</dt><dd>hotelový bazén, whirlpool, parní lázeň (neomezeně)</dd>
+<dt>Procedury</dt><dd>3–5 procedur</dd>
+<dt>Štědrý večer</dt><dd>slavnostní vánoční večeře, návštěva vánočních trhů, tombola</dd>
+<dt>Děti</dt><dd>dětský program není uvedený. Sleva jen pro dítě do 5 let bez lůžka, starší děti platí plnou cenu.</dd>
+<dt>Senioři</dt><dd>klasické lázně, procedury</dd>
+<dt>Pokoje pro nás</dt><dd>dvoulůžkové Komfort a Superior, apartmá Deluxe (2 lůžka + přistýlka, max. 3 osoby), jednolůžkové pokoje. Rodina ve 4 tedy potřebuje 2 pokoje.</dd>
+<dt>Slevy / podmínky</dt><dd>storno zdarma do 22 dní před příjezdem, pak 30 / 50 / 100 %. Vánoční sleva žádná.</dd>
+<dt>Výpočet</dt><dd class="calc">Rezervační systém 18. 10. 2026, 21.–27. 12. (6 nocí), plná penze: 8 os. ve dvoulůžkových pokojích Komfort × 14 650 Kč = 117 200 Kč; tchyně v jednolůžkovém Komfortu 15 250 Kč. Celkem 132 450 Kč. S polopenzí (web: od 13 450 Kč) asi o 1 200 Kč/os. méně, tj. ≈ 121 650 Kč. Slevy pro děti od 5 let nejsou (podle obchodních podmínek). + místní poplatek 50 Kč/os./den, parkování 250 Kč/den.</dd>
+<dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/marianske-lazne/hotel-royal/hodnoceni/" target="_blank" rel="noopener">Spa.cz 81 % (374 recenzí, za poslední rok 4)</a></li><li>Booking.com 8,1/10 (862, podle vyhledávače)</li></ul></dd>
+</dl>
+<div class="pc"><div class="pro"><b>Plusy</b><ul><li>lázně s procedurami, plnou penzí a bazénem</li><li>stejná firma jako Eliška, podobný styl</li><li>volné pokoje v rezervačním systému</li></ul></div><div class="con"><b>Minusy</b><ul><li>příjezd jen 20. nebo 21. 12. (23. 12. nejde)</li><li>bez aquaparku, pro děti bez programu</li><li>z Orlové ~550 km</li></ul></div></div>
+<div class="links"><a class="btn" href="https://www.royalspa.cz/vanocni-pobyt-5249" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a> <a class="btn" href="https://reservation.royalmarienbad.cz/cs/booking/2?fromExternal=true&amp;package=3650&amp;dateFrom=2026-12-21" target="_blank" rel="noopener">Online rezervace ↗</a></div>
 </article>
 <article class="card" id="darkov">
 <header><h3>Lázně Darkov – Vánoční pobyt</h3><div class="sub">Rehabilitační sanatorium, Karviná</div></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 120 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 106 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 12 km<br>Brandýs 349 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 120 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Ø os./noc</span><b>≈ 2 120 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 95 400 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 12 km<br>Brandýs 349 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>23.–28. 12.</dd>
 <dt>V ceně</dt><dd>plná penze, 3 procedury (oxygenoterapie, jodobromová koupel, aroma masáž), štědrovečerní večeře, vánoční dárek, 3× 1 h bazén</dd>
@@ -316,53 +417,15 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>rehabilitace a solanka, 12 km od Orlové</dd>
 <dt>Pokoje pro nás</dt><dd>dvoulůžkové pokoje, k jednolůžkovému je příplatek. Apartmá ověřit.</dd>
 <dt>Slevy / podmínky</dt><dd>nezveřejněno</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 10 600 Kč = 106 000 Kč (dětskou cenu a příplatek za jednolůžkový pokoj web neuvádí). + poplatek 21 Kč/os./den.</dd>
+<dt>Výpočet</dt><dd class="calc">9 os. × 10 600 Kč = 95 400 Kč (dětskou cenu a příplatek za jednolůžkový pokoj web neuvádí). + poplatek 21 Kč/os./den.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/lazne-darkov/rehabilitacni-sanatorium/hodnoceni/" target="_blank" rel="noopener">Spa.cz 88 % (30 za rok), cena/kvalita 83 %</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>levné lázně s procedurami</li><li>skoro doma pro Orlovou</li></ul></div><div class="con"><b>Minusy</b><ul><li>pro děti nic</li><li>bazén jen 3 h za pobyt</li><li>z Brandýsa ~350 km</li></ul></div></div>
 <div class="links"><a class="btn" href="https://www.laznedarkov.cz/pobyty?lang=cs&amp;type=19&amp;pages=4" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a></div>
 </article>
-<article class="card" id="royal-ml">
-<header><h3>Mariánské Lázně – Royal, Vánoční pobyt</h3><div class="sub">Lázeňský hotel Royal, Royal Spa (stejná skupina jako Eliška)</div><span class="tag t-new">Nově nalezeno</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 242 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Celkem (10 os.)</span><b>≈ 134 500 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
-<dl>
-<dt>Termín</dt><dd>20.–27. 12.</dd>
-<dt>V ceně</dt><dd>polopenze (plná za příplatek), 3–5 procedur podle počtu nocí, wellness (bazén, whirlpool, pára), svařák na přivítanou, slavnostní vánoční večeře, tombola, dárek</dd>
-<dt>Voda a bazén</dt><dd>hotelový bazén, whirlpool, parní lázeň (neomezeně)</dd>
-<dt>Procedury</dt><dd>3–5 procedur</dd>
-<dt>Štědrý večer</dt><dd>slavnostní vánoční večeře, návštěva vánočních trhů, tombola</dd>
-<dt>Děti</dt><dd>dětský program ani ceny nejsou uvedené</dd>
-<dt>Senioři</dt><dd>klasické lázně, procedury</dd>
-<dt>Pokoje pro nás</dt><dd>ověřit apartmá a jednolůžkový pokoj</dd>
-<dt>Slevy / podmínky</dt><dd>nezveřejněno</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 13 450 Kč = 134 500 Kč (dětskou cenu, jednolůžkový pokoj ani apartmá web neuvádí). + místní poplatek 50 Kč/os./den, parkování 250 Kč/den. Web uvádí zároveň „od 7 nocí“ i „6 nocí“, délku je potřeba ověřit.</dd>
-<dt>Recenze</dt><dd><ul class="rev"><li>Spa.cz / Google: nezjištěno</li></ul></dd>
-</dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>levné lázně s procedurami a bazénem</li><li>stejná firma jako Eliška, podobný styl</li></ul></div><div class="con"><b>Minusy</b><ul><li>polopenze</li><li>pro děti bez programu</li><li>z Orlové ~550 km</li></ul></div></div>
-<div class="links"><a class="btn" href="https://www.royalspa.cz/vanocni-pobyt-5249" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a></div>
-</article>
-<article class="card" id="babylon">
-<header><h3>Liberec – Wellness hotel Babylon, Vánoce se zábavou</h3><div class="sub">Wellness Hotel Babylon (4*)</div><span class="tag t-kids">Nejlepší pro děti</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 460 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 73 800 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 354 km<br>Brandýs 82 km</b></div></div>
-<dl>
-<dt>Termín</dt><dd>kdykoli 22.–27. 12., 3 noci</dd>
-<dt>V ceně</dt><dd>pokoj Superior, polopenze (3× snídaně, 2× večeře a 1× slavnostní večeře), neomezeně aquapark, saunový svět, Funpark, Lunapark, iQLANDIA a iQPARK, kryté parkování</dd>
-<dt>Voda a bazén</dt><dd>velký aquapark (tobogány, divoká řeka). Hosté mají vstup od 8:00. Svátky 2026 zatím nezveřejněné, v roce 2025 bylo 24. 12. 10–16 h a 25.–30. 12. 10–22 h.</dd>
-<dt>Procedury</dt><dd>žádné</dd>
-<dt>Štědrý večer</dt><dd>slavnostní večeře. Zda je štědrovečerní a jestli je za 24. 12. příplatek, je potřeba ověřit.</dd>
-<dt>Děti</dt><dd>ideální pro děti (aquapark, lunapark, iQLANDIA), 25. 12. dětský program v aquaparku. Dítě do 3 let zdarma, ostatní dětské ceny jsou až v rezervačním systému.</dd>
-<dt>Senioři</dt><dd>saunový svět, jinak hlavně zábavní centrum</dd>
-<dt>Pokoje pro nás</dt><dd>v balíčku pokoj Superior. Rodinný pokoj, apartmá a jednolůžkový pokoj ověřit.</dd>
-<dt>Slevy / podmínky</dt><dd>platba 100 % předem. Storno zdarma podle webu 3 dny a podle rezervačního systému 7 dní před příjezdem (ověřit).</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 7 380 Kč = 73 800 Kč (dětskou cenu balíčku web neuvádí, takže skutečně spíš méně). Parkování v ceně.</dd>
-<dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/wellness-hotely-ruzne/hotel-babylon/hodnoceni/" target="_blank" rel="noopener">Spa.cz 95 % (154 recenzí za rok), cena/kvalita 88 %</a></li><li><a href="https://www.tripadvisor.ie/Hotel_Review-g274702-d626927-Reviews-Wellness_Hotel_Babylon-Liberec_Liberec_Region_Bohemia.html" target="_blank" rel="noopener">TripAdvisor 3,7/5 (411, podle vyhledávače)</a></li></ul></dd>
-</dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>nejlepší pro děti</li><li>levné</li><li>blízko Brandýsa (~80 km)</li></ul></div><div class="con"><b>Minusy</b><ul><li>jen 3 noci</li><li>žádné procedury, není to lázeňský hotel</li><li>z Orlové ~350 km</li><li>TripAdvisor: starší pokoje, rušno</li></ul></div></div>
-<div class="links"><a class="btn" href="https://www.hotelbabylon.cz/cs/ubytovani/pobytove-balicky/57533-vanoce-se-zabavou/" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a> <a class="btn" href="https://www.visitliberec.eu/aktuality/zmeny-otviracich-dob-libereckych-atraktivit-o-vanocich/" target="_blank" rel="noopener">Svátky 2025 (Visit Liberec) ↗</a></div>
-</article>
 <article class="card" id="fl-svatky">
 <header><h3>Františkovy Lázně – Svátky v lázních</h3><div class="sub">hotely Metropol / Dr. Adler / Belvedere (3*)</div><span class="tag t-value">Nejlepší poměr cena/výkon</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 500 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 125 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 500 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Ø os./noc</span><b>≈ 2 500 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 112 500 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>kdykoli 18.–26. 12., min. 5 nocí (např. 22.–27. 12.)</dd>
 <dt>V ceně</dt><dd>polopenze (plnou lze dokoupit), neomezené nápoje k obědu a večeři, Aquaforum v ceně, Štědrovečerní menu a dárek od Ježíška (jen při noci 24./25. 12.)</dd>
@@ -373,15 +436,15 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>sleva nezveřejněna. Klidné lázeňské město, nápoje v ceně.</dd>
 <dt>Pokoje pro nás</dt><dd>Standard/Komfort 1/2 i 1/1 za stejnou cenu za osobu (jednolůžkový pokoj bez příplatku). Apartmá má jen Dr. Adler (cenu pro Vánoce v PDF nemá).</dd>
 <dt>Slevy / podmínky</dt><dd>FIRST MINUTE −15 % při rezervaci do 31. 10. 2026 (platí pro Belvedere, Dr. Adler, Metropol)</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 2 500 Kč × 5 nocí = 125 000 Kč; při first minute −15 % ≈ 106 250 Kč. Děti počítány jako dospělí (jejich „snížená cena“ zveřejněná není), takže skutečná cena bude nižší. + místní poplatek (spa.cz uvádí 50 Kč/os./den).</dd>
+<dt>Výpočet</dt><dd class="calc">9 os. × 2 500 Kč × 5 nocí = 112 500 Kč; při first minute −15 % ≈ 95 625 Kč. Děti počítány jako dospělí (jejich „snížená cena“ zveřejněná není), takže skutečná cena bude nižší. + místní poplatek (spa.cz uvádí 50 Kč/os./den).</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/frantiskovy-lazne/lazensky-hotel-metropol/tydenni-vanocni-pobyt-43834-1741784437/" target="_blank" rel="noopener">Spa.cz Metropol 88 % (19 recenzí za rok)</a></li><li><a href="https://www.spa.cz/frantiskovy-lazne/lazensky-dum-belvedere/hodnoceni/" target="_blank" rel="noopener">Spa.cz Belvedere 91 % (14)</a></li><li><a href="https://www.spa.cz/frantiskovy-lazne/lazensky-hotel-dr-adler/tydenni-vanocni-pobyt-43848-1741784442/" target="_blank" rel="noopener">Spa.cz Dr. Adler 86 % (5)</a></li></ul></dd>
 </dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>nejlepší poměr cena/výkon s aquaparkem</li><li>nápoje k jídlu v ceně</li><li>first minute −15 % do 31. 10.</li></ul></div><div class="con"><b>Minusy</b><ul><li>bez procedur</li><li>Aquaforum je menší lázeňský aquapark, ne Babylon</li><li>u 3* hotelů ověřit vstup do Aquafora o víkendu (26.–27. 12.)</li><li>Metropol a Belvedere nemají bazén v hotelu</li></ul></div></div>
+<div class="pc"><div class="pro"><b>Plusy</b><ul><li>nejlepší poměr cena/výkon s aquaparkem</li><li>nápoje k jídlu v ceně</li><li>first minute −15 % do 31. 10.</li></ul></div><div class="con"><b>Minusy</b><ul><li>bez procedur</li><li>Aquaforum je menší lázeňský aquapark</li><li>u 3* hotelů ověřit vstup do Aquafora o víkendu (26.–27. 12.)</li><li>Metropol a Belvedere nemají bazén v hotelu</li></ul></div></div>
 <div class="links"><a class="btn" href="https://www.frantiskovylazne.cz/cs/pobytove-balicky/svatky-v-laznich" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a> <a class="btn" href="https://www.frantiskovylazne.cz/files/pobytove_balicky/pdf/153-cs.pdf" target="_blank" rel="noopener">Ceník PDF ↗</a></div>
 </article>
 <article class="card" id="fl-tyden">
 <header><h3>Františkovy Lázně – Týdenní vánoční pobyt</h3><div class="sub">Metropol (nejlevnější), dále Dr. Adler, Belvedere</div><span class="tag t-eliska">Nejvíc jako Eliška</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 630 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Celkem (10 os.)</span><b>≈ 149 520 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 630 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Ø os./noc</span><b>≈ 2 126 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 133 910 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 560 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>20.–27. 12. (nástup v neděli)</dd>
 <dt>V ceně</dt><dd>plná penze, neomezené nápoje k obědu a večeři, vstupní lékařská prohlídka, 12 procedur, Aquaforum, prohlídka města, svařák s koledami</dd>
@@ -392,15 +455,15 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>sleva nezveřejněna. Procedury a lékař jsou výhoda pro rodiče a tchyni.</dd>
 <dt>Pokoje pro nás</dt><dd>Metropol: jen Standard/Komfort (1/1 i 1/2), apartmá nemá. Apartmá mají Dr. Adler (20 860 Kč/os./týden) a Belvedere (22 470 Kč).</dd>
 <dt>Slevy / podmínky</dt><dd>first minute −15 % je uvedená jen u balíčku Svátky v lázních. U týdenního ověřit.</dd>
-<dt>Výpočet</dt><dd class="calc">Metropol: 7 dospělých × 18 410 Kč = 128 870 Kč; 2 děti 6–10,99 let na přistýlce s plnou penzí 2 × 850 Kč × 7 = 11 900 Kč; syn 12 let 1 250 Kč × 7 = 8 750 Kč. Celkem ≈ 149 520 Kč. Dítě na pevném lůžku místo přistýlky +1 000 Kč/den, dvoulůžkový pokoj pro 1 osobu +750 Kč/den. + místní poplatek 50 Kč/os./den.</dd>
+<dt>Výpočet</dt><dd class="calc">Metropol: 6 dospělých × 18 410 Kč = 110 460 Kč; dítě 8 let (6–10,99) na přistýlce 850 Kč × 7 = 5 950 Kč; dítě 11 let (11–17,99) 1 250 Kč × 7 = 8 750 Kč; syn 12 let 1 250 Kč × 7 = 8 750 Kč. Celkem ≈ 133 910 Kč. Dítě na pevném lůžku místo přistýlky +1 000 Kč/den, dvoulůžkový pokoj pro 1 osobu +750 Kč/den. + místní poplatek 50 Kč/os./den.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/frantiskovy-lazne/lazensky-hotel-metropol/tydenni-vanocni-pobyt-43834-1741784437/" target="_blank" rel="noopener">Spa.cz Metropol 88 % (19 za rok)</a></li><li><a href="https://www.tripadvisor.com.sg/Hotel_Review-g274692-d1838735-Reviews-Spa_Resort_PAWLIK_AQUAFORUM-Frantiskovy_Lazne_Karlovy_Vary_Region_Bohemia.html" target="_blank" rel="noopener">TripAdvisor Pawlik-Aquaforum 4,2/5 (podle vyhledávače)</a></li></ul></dd>
 </dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>formátem nejblíž Elišce (procedury, plná penze, voda)</li><li>zveřejněné dětské ceny</li><li>celý týden</li></ul></div><div class="con"><b>Minusy</b><ul><li>7 nocí je dlouho a celkově to vyjde dráž</li><li>Aquaforum o víkendu není v ceně</li><li>procedury jen pro dospělé</li><li>Metropol nemá apartmá</li></ul></div></div>
+<div class="pc"><div class="pro"><b>Plusy</b><ul><li>formátem nejblíž Elišce (procedury, plná penze, voda)</li><li>zveřejněné dětské ceny</li><li>celý týden</li></ul></div><div class="con"><b>Minusy</b><ul><li>7 nocí, nástup už 20. 12.</li><li>Aquaforum o víkendu není v ceně</li><li>procedury jen pro dospělé</li><li>Metropol nemá apartmá</li></ul></div></div>
 <div class="links"><a class="btn" href="https://www.frantiskovylazne.cz/cs/pobytove-balicky/tydenni-vanocni-pobyt" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a> <a class="btn" href="https://www.frantiskovylazne.cz/files/pobytove_balicky/pdf/47-cs.pdf" target="_blank" rel="noopener">Ceník PDF ↗</a> <a class="btn" href="https://www.spa.cz/frantiskovy-lazne/lazensky-hotel-metropol/tydenni-vanocni-pobyt-43834-1741784437/" target="_blank" rel="noopener">Spa.cz – podmínky pro děti ↗</a></div>
 </article>
 <article class="card" id="richard">
 <header><h3>Mariánské Lázně – Hotel Richard</h3><div class="sub">Hotel Richard (4*)</div></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 657 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Celkem (10 os.)</span><b>≈ 188 450 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 657 Kč</b></div><div><span>Noci</span><b>7</b></div><div><span>Ø os./noc</span><b>≈ 2 696 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 169 850 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 553 km<br>Brandýs 198 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>kdykoli 18.–31. 12., 7 nocí</dd>
 <dt>V ceně</dt><dd>polopenze a polední polévka se salátem, 10 + 2 bonusové procedury, lékařská konzultace, bazén, vířivka, fitness, župan, Štědrý večer, slavnostní večeře 25. a 26. 12.</dd>
@@ -411,7 +474,7 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>výborné hodnocení, hodně procedur</dd>
 <dt>Pokoje pro nás</dt><dd>dvoulůžkové a jednolůžkové pokoje. Apartmá ověřit.</dd>
 <dt>Slevy / podmínky</dt><dd>nezveřejněno</dd>
-<dt>Výpočet</dt><dd class="calc">9 os. × 18 600 Kč + tchyně v jednolůžkovém pokoji 21 050 Kč = 188 450 Kč (dětská cena není zveřejněná). + lázeňská taxa 50 Kč/os./den.</dd>
+<dt>Výpočet</dt><dd class="calc">8 os. × 18 600 Kč + tchyně v jednolůžkovém pokoji 21 050 Kč = 169 850 Kč (dětská cena není zveřejněná). + lázeňská taxa 50 Kč/os./den.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/marianske-lazne/wellness-spa-hotel-richard/hodnoceni/" target="_blank" rel="noopener">Spa.cz 96 % (19 za rok), cena/kvalita 93 %</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>velmi dobré recenze</li><li>hodně procedur</li></ul></div><div class="con"><b>Minusy</b><ul><li>7 nocí (delší pobyt)</li><li>pro děti nic</li></ul></div></div>
@@ -419,7 +482,7 @@ td b,td strong{white-space:nowrap}
 </article>
 <article class="card" id="aquapalace">
 <header><h3>Praha-Čestlice – Aquapalace Hotel, Vánoční wellness</h3><div class="sub">Aquapalace Hotel Prague (4*)</div></header>
-<div class="kpis"><div><span>Cena/noc</span><b>2 801 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 84 020 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 36 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>2 801 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Ø os./noc</span><b>≈ 2 801 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 75 618 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 36 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12., 3 noci, nástup út–čt</dd>
 <dt>V ceně</dt><dd>polopenze formou bufetu, štědrovečerní slavnostní bufet s živou hudbou a pitím, výlet vánoční Prahou 24. 12., Aquapalace a saunový svět</dd>
@@ -430,7 +493,7 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>saunový svět, krátké cestování z Brandýsa</dd>
 <dt>Pokoje pro nás</dt><dd>ověřit rodinný pokoj a jednolůžkový pokoj</dd>
 <dt>Slevy / podmínky</dt><dd>nezveřejněno</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 8 402 Kč = 84 020 Kč (cena „od“ ze Spa.cz se mění podle pokoje a obsazenosti, dříve se objevilo i 11 940 Kč). + poplatek 21 Kč/os./noc, parkování 15 €/noc.</dd>
+<dt>Výpočet</dt><dd class="calc">9 os. × 8 402 Kč = 75 618 Kč (cena „od“ ze Spa.cz se mění podle pokoje a obsazenosti). + poplatek 21 Kč/os./noc, parkování 15 €/noc.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/wellness-hotely-praha/aquapalace-hotel/vanocni-wellness-v-aquapalace-hotelu-prague/" target="_blank" rel="noopener">Spa.cz 100 % (jen 1 recenze za rok, celkem 131)</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>~35 km z Brandýsa</li><li>obří aquapark</li></ul></div><div class="con"><b>Minusy</b><ul><li>24. 12. aquapark zavřený</li><li>jen 3 noci, bez procedur</li><li>není to „odjetí“, z Orlové ~370 km</li></ul></div></div>
@@ -438,7 +501,7 @@ td b,td strong{white-space:nowrap}
 </article>
 <article class="card" id="aurora">
 <header><h3>Třeboň – Lázně Aurora, Vánoce v Auroře</h3><div class="sub">Lázeňský dům Aurora (4*)</div><span class="tag t-eliska">Nejvíc jako Eliška</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>3 102 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Celkem (10 os.)</span><b>≈ 191 220 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 160 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 102 Kč</b></div><div><span>Noci</span><b>6</b></div><div><span>Ø os./noc</span><b>≈ 3 196 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 172 608 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 368 km<br>Brandýs 160 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–28. 12.</dd>
 <dt>V ceně</dt><dd>obědy a večeře formou bufetu, slavnostní štědrovečerní menu, vstupní vyšetření, 8 procedur (nelze měnit), vnitřní bazény a fitness, 2× Třeboňský saunový svět, vánoční film, dárek</dd>
@@ -449,7 +512,7 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>klasické lázně se vším pod jednou střechou</dd>
 <dt>Pokoje pro nás</dt><dd>apartmá DeLuxe (2 ložnice) 21 852 Kč/os., jednolůžkový Superior 21 552 Kč, přistýlka 16 452 Kč</dd>
 <dt>Slevy / podmínky</dt><dd>akce 500 Kč/os. za potvrzení od vlastního lékaře. Říjnová sleva 10 % na „doprodej pokojů“ (platnost pro Vánoce ověřit).</dd>
-<dt>Výpočet</dt><dd class="calc">Rodina v apartmá DeLuxe (2 ložnice): 2 × 21 852 + 2 děti na přistýlce 2 × 16 452 = 76 608 Kč; 4 dospělí v pokoji Superior 4 × 18 612 = 74 448 Kč; tchyně v jednolůžkovém Superior 21 552 Kč; syn 12 let 18 612 Kč. Celkem ≈ 191 220 Kč. Kapacitu apartmá pro 4 je potřeba ověřit.</dd>
+<dt>Výpočet</dt><dd class="calc">Rodina v apartmá DeLuxe (2 ložnice): 2 × 21 852 + 2 děti na přistýlce 2 × 16 452 = 76 608 Kč; 3 dospělí (ségra a rodiče) v pokoji Superior 3 × 18 612 = 55 836 Kč; tchyně v jednolůžkovém Superior 21 552 Kč; syn 12 let 18 612 Kč. Celkem ≈ 172 608 Kč. Kapacitu apartmá pro 4 je potřeba ověřit.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/lazne-trebon/lazne-aurora/hodnoceni/" target="_blank" rel="noopener">Spa.cz 93 % (26 za rok), cena/kvalita 85 %</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>lázně, procedury a bazén v jedné budově</li><li>6 nocí</li><li>vhodné apartmá</li></ul></div><div class="con"><b>Minusy</b><ul><li>bez aquaparku</li><li>z Orlové ~370 km</li></ul></div></div>
@@ -457,7 +520,7 @@ td b,td strong{white-space:nowrap}
 </article>
 <article class="card" id="eliska">
 <header><h3>Velké Losiny – Eliška (loňský hotel)</h3><div class="sub">Lázeňský hotel Eliška, Royal Spa</div><span class="tag t-base">Loňská volba</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>3 569 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Celkem (10 os.)</span><b>≈ 178 450 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 175 km<br>Brandýs 227 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 569 Kč</b></div><div><span>Noci</span><b>5</b></div><div><span>Ø os./noc</span><b>≈ 3 569 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 160 605 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 175 km<br>Brandýs 227 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12.</dd>
 <dt>V ceně</dt><dd>plná penze, 4 procedury (koupel se zábalem, parafín, vánoční masáž, 2,5 h v Termálech Losiny), hotelový termální bazén, dárek od Ježíška, štědrovečerní večeře, cukroví</dd>
@@ -468,15 +531,15 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>sleva nezveřejněna, procedury a klid</dd>
 <dt>Pokoje pro nás</dt><dd>pokoje podle kategorie. Apartmá a jednolůžkový pokoj s cenou je potřeba poptat.</dd>
 <dt>Slevy / podmínky</dt><dd>1 noc zdarma při spojení vánočního a silvestrovského pobytu</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 17 845 Kč = 178 450 Kč (dětské ceny ani příplatky za jednolůžkový pokoj a apartmá zveřejněné nejsou). + místní poplatek 30 Kč/os./den, parkování 50 Kč/den/auto.</dd>
+<dt>Výpočet</dt><dd class="calc">9 os. × 17 845 Kč = 160 605 Kč (dětské ceny ani příplatky za jednolůžkový pokoj a apartmá zveřejněné nejsou). + místní poplatek 30 Kč/os./den, parkování 50 Kč/den/auto.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/lazne-velke-losiny/hotel-eliska/hodnoceni/" target="_blank" rel="noopener">Spa.cz 84 % (11 recenzí za rok), cena/kvalita 76 %</a></li></ul></dd>
 </dl>
-<div class="pc"><div class="pro"><b>Plusy</b><ul><li>všichni ho znají a loni se líbil</li><li>procedury, termální park, kompletní Vánoce</li></ul></div><div class="con"><b>Minusy</b><ul><li>termály v ceně jen 1×</li><li>Spa.cz hodnocení cena/kvalita jen 76 %</li></ul></div></div>
+<div class="pc"><div class="pro"><b>Plusy</b><ul><li>všichni ho znají a loni se líbil</li><li>procedury, termální park, kompletní Vánoce</li></ul></div><div class="con"><b>Minusy</b><ul><li>termály v ceně jen 1×</li><li>nástup už 22. 12.</li></ul></div></div>
 <div class="links"><a class="btn" href="https://www.lazne-losiny.cz/vanocni-pobyt" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a> <a class="btn" href="https://www.termaly-losiny.cz/aktuality/vanocni-a-novorocni-provozni-doba" target="_blank" rel="noopener">Termály Losiny – svátky 2025 ↗</a></div>
 </article>
 <article class="card" id="thermal">
 <header><h3>Karlovy Vary – Hotel Thermal, Vánoce</h3><div class="sub">Spa Hotel Thermal (4*)</div><span class="tag t-new">Nově nalezeno</span></header>
-<div class="kpis"><div><span>Cena/noc</span><b>3 750 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 150 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 513 km<br>Brandýs 151 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>3 750 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Ø os./noc</span><b>≈ 3 750 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 135 000 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 513 km<br>Brandýs 151 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–27. 12., 4 noci (nástup po–st, lze prodloužit až na 6 nocí)</dd>
 <dt>V ceně</dt><dd>polopenze, 24. 12. večeře s hudbou a all inclusive nápoji, dárek, neomezeně venkovní termální bazén a saunový svět Saunia, vnitřní wellness</dd>
@@ -487,7 +550,7 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>kolonády, termální bazén</dd>
 <dt>Pokoje pro nás</dt><dd>ověřit apartmá a jednolůžkový pokoj</dd>
 <dt>Slevy / podmínky</dt><dd>při pobytu od 5 nocí je levnější</dd>
-<dt>Výpočet</dt><dd class="calc">10 os. × 15 000 Kč = 150 000 Kč (při ceně 14 000 Kč by to bylo 140 000 Kč). Dětská cena není zveřejněná. + lázeňská taxa 50 Kč/os./noc, parkování 390 Kč/noc.</dd>
+<dt>Výpočet</dt><dd class="calc">9 os. × 15 000 Kč = 135 000 Kč (při ceně 14 000 Kč by to bylo 126 000 Kč). Dětská cena není zveřejněná. + lázeňská taxa 50 Kč/os./noc, parkování 390 Kč/noc.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/lazne-karlovy-vary/lazensky-hotel-thermal/vanoce-2026/" target="_blank" rel="noopener">Spa.cz 92 % (120 za rok), cena/kvalita 87 %</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>velký venkovní termální bazén</li><li>Karlovy Vary o Vánocích</li></ul></div><div class="con"><b>Minusy</b><ul><li>polopenze, bez procedur</li><li>z Orlové ~510 km</li></ul></div></div>
@@ -495,7 +558,7 @@ td b,td strong{white-space:nowrap}
 </article>
 <article class="card" id="tol">
 <header><h3>Lázně Bělohrad – Tree of Life, Vánoční pobyt</h3><div class="sub">Tree of Life (4*S)</div></header>
-<div class="kpis"><div><span>Cena/noc</span><b>4 623 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Celkem (10 os.)</span><b>≈ 192 700 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 294 km<br>Brandýs 86 km</b></div></div>
+<div class="kpis"><div><span>Cena/noc</span><b>4 623 Kč</b></div><div><span>Noci</span><b>4</b></div><div><span>Ø os./noc</span><b>≈ 4 839 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 174 210 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 294 km<br>Brandýs 86 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>4 noci, příjezd 22.–24. 12.</dd>
 <dt>V ceně</dt><dd>plná penze formou bufetu, štědrovečerní večeře a pozdní raut, 4 vánoční procedury, bazén, Organic &amp; Garden Spa, fitness, program (perníkový stromeček, klavír, housle, degustace)</dd>
@@ -506,15 +569,15 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>klidné, kvalitní kuchyně</dd>
 <dt>Pokoje pro nás</dt><dd>apartmán Premium 24 490 Kč/os., jednolůžkový pokoj 23 490 Kč, přistýlka 13 890 Kč</dd>
 <dt>Slevy / podmínky</dt><dd>storno zdarma víc než 27 dní předem</dd>
-<dt>Výpočet</dt><dd class="calc">Rodina v apartmánu Premium: 2 × 24 490 + 2 děti na přistýlce 2 × 13 890 = 76 760 Kč; 4 dospělí ve Standardu 4 × 18 490 = 73 960 Kč; tchyně v jednolůžkovém pokoji 23 490 Kč; syn 12 let 18 490 Kč. Celkem ≈ 192 700 Kč. + poplatek 30 Kč/den (jen od 18 let).</dd>
+<dt>Výpočet</dt><dd class="calc">Rodina v apartmánu Premium: 2 × 24 490 + 2 děti na přistýlce 2 × 13 890 = 76 760 Kč; 3 dospělí (ségra a rodiče) ve Standardu 3 × 18 490 = 55 470 Kč; tchyně v jednolůžkovém pokoji 23 490 Kč; syn 12 let 18 490 Kč. Celkem ≈ 174 210 Kč. + poplatek 30 Kč/den (jen od 18 let).</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/lazne-belohrad/spa-resort-strom-zivota/hodnoceni/" target="_blank" rel="noopener">Spa.cz 96 % (79 za rok), cena/kvalita 91 %</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>nejpropracovanější vánoční program</li><li>kvalita 4*S, plná penze, procedury</li></ul></div><div class="con"><b>Minusy</b><ul><li>bez aquaparku</li><li>z Orlové ~290 km</li></ul></div></div>
 <div class="links"><a class="btn" href="https://treeoflife.cz/vanocni-pobyt--2026" target="_blank" rel="noopener">Balíček (oficiální web) ↗</a></div>
 </article>
 <article class="card" id="horal">
-<header><h3>Velké Karlovice – Wellness hotel Horal</h3><div class="sub">Wellness hotel Horal (3*+)</div></header>
-<div class="kpis"><div><span>Cena/noc</span><b>5 330 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Celkem (10 os.)</span><b>≈ 167 895 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 88 km<br>Brandýs 329 km</b></div></div>
+<header><h3>Velké Karlovice – Wellness hotel Horal</h3><div class="sub">Wellness hotel Horal (3*+)</div><span class="tag t-kids">Nejlepší pro děti</span></header>
+<div class="kpis"><div><span>Cena/noc</span><b>5 330 Kč</b></div><div><span>Noci</span><b>3</b></div><div><span>Ø os./noc</span><b>≈ 5 626 Kč</b></div><div><span>Celkem (9 os.)</span><b>≈ 151 905 Kč</b></div><div><span>Vzdálenost</span><b class="km">Orlová 88 km<br>Brandýs 329 km</b></div></div>
 <dl>
 <dt>Termín</dt><dd>22.–25. 12. (3 noci) nebo 4 noci v rozmezí 21.–27. 12.</dd>
 <dt>V ceně</dt><dd>snídaně a večeře formou bufetu, štědrovečerní večeře (degustační menu), termální bazény, saunový svět s rituály, masáž 50 min, lyžování na Štědrý den zdarma, animace, shuttle, parkování</dd>
@@ -525,7 +588,7 @@ td b,td strong{white-space:nowrap}
 <dt>Senioři</dt><dd>bez slev. Wellness a výborná kuchyně.</dd>
 <dt>Pokoje pro nás</dt><dd>jednolůžkový pokoj +50 %, rodinné pokoje ověřit</dd>
 <dt>Slevy / podmínky</dt><dd>žádné další slevy nelze uplatnit</dd>
-<dt>Výpočet</dt><dd class="calc">9 os. × 15 990 Kč + tchyně v jednolůžkovém pokoji (+50 %) 23 985 Kč = 167 895 Kč. Děti mají vlastní, nižší cenu (nezveřejněná), takže skutečně méně. Cena 15 990 Kč je ověřená v rezervačním systému: 31 980 Kč za pokoj pro 2 dospělé na 3 noci od 22. 12.</dd>
+<dt>Výpočet</dt><dd class="calc">8 os. × 15 990 Kč + tchyně v jednolůžkovém pokoji (+50 %) 23 985 Kč = 151 905 Kč. Děti mají vlastní, nižší cenu (nezveřejněná), takže skutečně méně. Cena 15 990 Kč je ověřená v rezervačním systému: 31 980 Kč za pokoj pro 2 dospělé na 3 noci od 22. 12.</dd>
 <dt>Recenze</dt><dd><ul class="rev"><li><a href="https://www.spa.cz/wellness-hotely-ruzne/wellness-hotel-horal/hodnoceni/" target="_blank" rel="noopener">Spa.cz 98 % (27 za rok), cena/kvalita 96 %</a></li><li><a href="https://www.tripadvisor.com/Hotel_Review-g1954913-d1953289-Reviews-Wellness_Hotel_Horal-Velke_Karlovice_Zlin_Region_Moravia.html" target="_blank" rel="noopener">TripAdvisor 4,4/5 (147, podle vyhledávače)</a></li></ul></dd>
 </dl>
 <div class="pc"><div class="pro"><b>Plusy</b><ul><li>nejlépe hodnocený</li><li>rodinný wellness s programem pro děti</li><li>~90 km z Orlové</li></ul></div><div class="con"><b>Minusy</b><ul><li>jen 3–4 noci</li><li>bez lázeňských procedur</li></ul></div></div>
@@ -547,10 +610,11 @@ td b,td strong{white-space:nowrap}
 <li>Provozní doba aquaparků a termálů 24.–26. 12. 2026 (Aquapalace má 24. 12. zavřeno, ostatní zatím nezveřejnily).</li>
 <li>Věkové limity procedur (ve Františkových Lázních jen od 18 let).</li>
 <li>Františkovy Lázně: platí vstup do Aquafora i o víkendu? Platí first minute i pro týdenní pobyt?</li>
+<li>Otázky k oběma favoritům jsou u nich nahoře.</li>
 </ul>
 </section>
 
-<footer>Zpracováno 15. 10. 2026 z oficiálních webů hotelů, ceníků (PDF) a Spa.cz. Hodnocení Spa.cz jsou z hotelových stránek Spa.cz (průměr za poslední rok). Hodnocení TripAdvisor a Firmy.cz jsou převzatá z výsledků vyhledávání a přímo neověřená. Hodnocení Google a Booking se nepodařilo spolehlivě ověřit, proto je neuvádím. Fotky záměrně nejsou (autorská práva). Najdete je na odkazech hotelů. Ceny se mohou měnit, rozhoduje vždy ceník hotelu.</footer>
+<footer>Zpracováno 15. 10. 2026, aktualizováno 18. 10. 2026 (9 osob, favorité) z oficiálních webů hotelů, ceníků (PDF) a Spa.cz. Hodnocení Spa.cz jsou z hotelových stránek Spa.cz (průměr za poslední rok). Hodnocení TripAdvisor a Firmy.cz jsou převzatá z výsledků vyhledávání a přímo neověřená. Hodnocení Google a Booking se nepodařilo spolehlivě ověřit, proto je neuvádím. Fotky záměrně nejsou (autorská práva). Najdete je na odkazech hotelů. Ceny se mohou měnit, rozhoduje vždy ceník hotelu.</footer>
 </div>
 <script>
 (function(){
@@ -560,12 +624,6 @@ ths.forEach(function(th,i){th.addEventListener('click',function(){
  var num=th.dataset.t==='n',tb=t.tBodies[0],rs=[].slice.call(tb.rows);
  rs.sort(function(a,b){var x=a.cells[i].dataset.v,y=b.cells[i].dataset.v;if(num){x=+x;y=+y;return asc?x-y:y-x}return asc?x.localeCompare(y,'cs'):y.localeCompare(x,'cs')});
  rs.forEach(function(r){tb.appendChild(r)});});});
-function msg(){var w=document.getElementById('who').value.trim(),a=document.getElementById('v1').value,b=document.getElementById('v2').value,n=document.getElementById('nt').value.trim();
- var s='Vánoce 2026 – moje volba'+(w?' ('+w+')':'')+':\n1. '+(a||'–')+'\n2. '+(b||'–')+(n?'\nPoznámka: '+n:'');return s}
-function upd(){var s=msg();document.getElementById('out').textContent=s;document.getElementById('wa').href='https://wa.me/?text='+encodeURIComponent(s);document.getElementById('sms').href='sms:?&body='+encodeURIComponent(s)}
-['who','v1','v2','nt'].forEach(function(id){document.getElementById(id).addEventListener('input',upd)});upd();
-document.getElementById('copy').onclick=function(){var s=msg();if(navigator.clipboard){navigator.clipboard.writeText(s).then(function(){alert('Zkopírováno – vložte do zprávy Jirkovi.')})}else{prompt('Zkopírujte text:',s)}};
-document.getElementById('share').onclick=function(){var s=msg();if(navigator.share){navigator.share({text:s}).catch(function(){})}else{document.getElementById('copy').click()}};
 })();
 </script>
 </body>
